@@ -1,0 +1,100 @@
+1557516051a:1:{s:26:"home_page/section_five.htm";a:6:{s:8:"fileName";s:26:"home_page/section_five.htm";s:7:"content";s:2454:"==
+<section id="five" class="main">
+    <header class="major">
+        
+        <h2>
+           Development Tools
+            <div style='font-weight:normal;font-size:10pt;letter-spacing: -0.015em;'>
+                Proficient in installing and maintaining CMS architecture frameworks for web applications on both linux or Windows web servers. A typical CMS will require a dev, staging and production environment for safely promoting code and/or content changes to a public (production) website.
+            </div>
+        </h2>
+        
+    </header>
+    <ul class="features" style='text-align:left;'>
+        <li>
+            <div style='text-align:left;'>
+                <span class="cmsimage"><img src='/storage/app/media/projects/sitecore-logo.png'></span>
+                <div style='font-weight:bold;font-size:14pt;'>Sitecore CMS
+                    <div style='font-weight:normal;font-size:11pt;'>Certified Sitecore CMS architect with several years experience architecting web applications using SQL Server, MongoDb, ASP.NET, C#, HTML and Javascript.
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        <li>
+            <div style='text-align:left;'>
+                <span class="cmsimage"><img src='/storage/app/media/projects/october-logo.png'></span>
+                <div style='font-weight:bold;font-size:14pt;'>October CMS
+                    <div style='font-weight:normal;font-size:11pt;'>October is a free CMS platform that offers a flexible architecture that is highly scalable and easy to manage across multiple environments.
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+         <li>
+            <div style='text-align:left;'>
+                <span class="cmsimage"><img src='/storage/app/media/projects/drupal-logo.png'></span>
+                <div style='font-weight:bold;font-size:14pt;'>Drupal
+                    <div style='font-weight:normal;font-size:11pt;'>Drupal is a free CMS platform that offers a flexible architecture that is highly scalable and easy to manage across multiple environments.
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        
+    </ul>
+    <footer class="major">
+        <ul class="actions">
+            <li><a href="{{'cms'|page}}" class="button">Learn CMS More</a></li>
+        </ul>
+    </footer>
+</section>";s:5:"mtime";i:1557430230;s:6:"markup";s:2451:"<section id="five" class="main">
+    <header class="major">
+        
+        <h2>
+           Development Tools
+            <div style='font-weight:normal;font-size:10pt;letter-spacing: -0.015em;'>
+                Proficient in installing and maintaining CMS architecture frameworks for web applications on both linux or Windows web servers. A typical CMS will require a dev, staging and production environment for safely promoting code and/or content changes to a public (production) website.
+            </div>
+        </h2>
+        
+    </header>
+    <ul class="features" style='text-align:left;'>
+        <li>
+            <div style='text-align:left;'>
+                <span class="cmsimage"><img src='/storage/app/media/projects/sitecore-logo.png'></span>
+                <div style='font-weight:bold;font-size:14pt;'>Sitecore CMS
+                    <div style='font-weight:normal;font-size:11pt;'>Certified Sitecore CMS architect with several years experience architecting web applications using SQL Server, MongoDb, ASP.NET, C#, HTML and Javascript.
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        <li>
+            <div style='text-align:left;'>
+                <span class="cmsimage"><img src='/storage/app/media/projects/october-logo.png'></span>
+                <div style='font-weight:bold;font-size:14pt;'>October CMS
+                    <div style='font-weight:normal;font-size:11pt;'>October is a free CMS platform that offers a flexible architecture that is highly scalable and easy to manage across multiple environments.
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+         <li>
+            <div style='text-align:left;'>
+                <span class="cmsimage"><img src='/storage/app/media/projects/drupal-logo.png'></span>
+                <div style='font-weight:bold;font-size:14pt;'>Drupal
+                    <div style='font-weight:normal;font-size:11pt;'>Drupal is a free CMS platform that offers a flexible architecture that is highly scalable and easy to manage across multiple environments.
+                    </div>
+                </div>
+            </div>
+        </li>
+        
+        
+    </ul>
+    <footer class="major">
+        <ul class="actions">
+            <li><a href="{{'cms'|page}}" class="button">Learn CMS More</a></li>
+        </ul>
+    </footer>
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

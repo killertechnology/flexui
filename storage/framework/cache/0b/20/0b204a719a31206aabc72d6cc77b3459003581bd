@@ -1,0 +1,36 @@
+1557867037a:1:{s:24:"home_page/navigation.htm";a:6:{s:8:"fileName";s:24:"home_page/navigation.htm";s:7:"content";s:623:"==
+<nav id="nav" >
+    <ul>
+        <li><a href="#about" id='#about' class="navul" rel="modal:close" >About</a></li>
+        <li><a href="#projects" id='#projects' class="navul" rel="modal:close" >Recent Projects</a></li>
+        <li><a href="#CMS" id='#CMS' class="navul" rel="modal:close" >DevOps</a></li>
+        <li><a href="#tools" id='#tools' class="navul" rel="modal:close" >Tools</a></li>
+    </ul>
+</nav>
+
+<script language='Javascript'>
+
+$(".navul").click(function() {
+    //console.log(this.id);
+    $('html, body').animate({
+        scrollTop: $(this.id).offset().top
+    }, 2000);
+});
+</script>";s:5:"mtime";i:1557862406;s:6:"markup";s:620:"<nav id="nav" >
+    <ul>
+        <li><a href="#about" id='#about' class="navul" rel="modal:close" >About</a></li>
+        <li><a href="#projects" id='#projects' class="navul" rel="modal:close" >Recent Projects</a></li>
+        <li><a href="#CMS" id='#CMS' class="navul" rel="modal:close" >DevOps</a></li>
+        <li><a href="#tools" id='#tools' class="navul" rel="modal:close" >Tools</a></li>
+    </ul>
+</nav>
+
+<script language='Javascript'>
+
+$(".navul").click(function() {
+    //console.log(this.id);
+    $('html, body').animate({
+        scrollTop: $(this.id).offset().top
+    }, 2000);
+});
+</script>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
