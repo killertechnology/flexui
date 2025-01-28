@@ -1,8 +1,8 @@
-name: 'Stellar'
-description: 'Stellar Theme from HTML5UP'
-author: 'Patrick Mitterer'
-homepage: 'https://zwiebl.xyz'
-code: zwiebl_stellar
+name: Stellar
+description: ''
+author: 'Kevin Fessler'
+homepage: 'https://kevinfessler.info'
+code: 'Flex UI'
 form: fields.yaml
 require:
     - RainLab.Blog

@@ -1,183 +1,884 @@
 ==
-<section id="projects" class="main">
-    <header class="major">
+<section class="main">
+    <header class="major" id="projects">
         <h2>Recent Projects</h2>
-        <p>Check out a sample of my current projects.</p>
+     <!--   <span class='proj-text'>Click below for details on my most recent projects</span> -->
     </header>
    
-    <ul class="features" style='text-align:left;'>
+   <script language="javascript">
+   function openModal(){
+       gtag('event', tagTitle);
+       console.log("Modal Appeared!");
+       return false;
+   }
+   
+   </script>
+    <ul class="features" style="text-align:left;padding-top:10px;">
+      
+      <li>
+                <a href="#ex-Transact" rel="modal:open" class='proj-headline' onClick="javascript:openModal('Transact Campus');">
+                    Transact Campus<br>
+                    <div class="proj-text pad-5px">Higher-Ed Payments & Credentials</div>
+                    <div class="proj-image"><img src='/storage/app/media/mobile-transact.jpg'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                
+                <div id="ex-Transact" class="modal">
+                    <div class="proj-headline">Student Accounts & Mobile Credential</div>
+                   
+                    <div class="proj-byline">
+                        <h1 class="center-content-title">Transact Campus E-Accounts</h1>
+                         <div class="proj-text">
+                         <div class="proj-image"><img style="border:1px black solid;width:60%;float: left;margin-right: 15px;margin-top: 15px;width:65%;" src='/storage/app/media/Transact-100MC.png'></div>
+                       
+                        At Transact, we worked hard to build the E-Accounts mobile app to provide a seamless, streamlined experience for students and institutions alike. By incorporating feedback from campuses, we added new features that allow students to easily manage their accounts, check balances, load funds, and make secure payments using credit, campus cards, or meal plans (depending on what’s supported by the campus). As a product team, our goal is to help institutions simplify student portal management, reducing friction and enhancing the overall user experience.
+                        
+                            <div class="proj-stack"> 
+                            <div style="background-color:#e1e8e1;padding:10px;">
+                                <b>Technology Stack:</b><br>
+                                <span style='font-size:10pt;'>
+                                    <b>Presentation layer:</b> reactJS, Android OS, iOS<br>
+                                    Azure Cloud, SAML2.0, oAuth2.0 restful APIs
+                                </span>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+
+                      
+                    
+                      
+                   
+                    <div class="proj-byline">
+                       
+With the app, students can quickly pay for everything from snacks to laundry to parking, all from their phone. Transaction notifications keep users informed, and the app even remembers their preferences for faster payments. No more hunting for cards or waiting in line – everything is at their fingertips. We’ve worked closely with campuses to make this solution both practical and efficient, supporting their efforts to modernize and streamline campus services. 
+                    </div>
+                    
+            
+
+                    
+                    <br><br>
+                    <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                       
+                     
+                </div>
+          
+        </li>
        <li>
+                <a href="#ex-AIML" rel="modal:open" class='proj-headline' onClick="gtag('event', 'MachineLearning');">
+                    AI Business Protection<br>
+                    <div class="proj-text pad-5px">Machine Learning & Fraud detection</div>
+                    <div class="proj-image"><img src='/storage/app/media/floatingpoint.gif'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                
+                <div id="ex-AIML" class="modal">
+                    <div class="proj-headline">Machine Learning & Fraud detection</div>
+                   
+                    <div class="proj-byline">
+                        <h1 class="center-content-title">Machine Learning & Fraud detection</h1>
+                         <div class="proj-text">
+                         <div class="proj-image"><img style="border:1px black solid;width:60%;float: left;margin-right: 15px;margin-top: 15px;width:65%;" src='/storage/app/media/data-science.gif'></div>
+                       
+                      Working closely with a talented data science team, we made significant strides in machine learning, with a primary focus on fraud detection. Our collaborative efforts leveraged AI to identify complex, hidden patterns in fraudulent user behavior, preventing over $700k in payouts to malicious actors. This insight allowed us to create a strategy that not only uncovered these patterns but also proactively applied these rules to new users exhibiting similar behavior. Our AI-driven system now serves as an early-warning safeguard, stopping potentially catastrophic financial losses before they can occur. <br><br>
+                        
+                            
+                       </div>
+                    </div>
+
+                      
+                    
+                      
+                   
+                    <div class="proj-byline">
+                    
+                        <div class="proj-stack"> 
+                            <div style="background-color:#e1e8e1;padding:10px;">
+                                <b>Technology Stack:</b><br>
+                                <span style='font-size:10pt;'>
+                                    <b>Presentation layer:</b> None<br><br>
+                                    Anaconda, python, numpy, scipy, scikit<br>
+                                </span>
+                            </div>
+                        </div>
+                        
+                       Under strong collective leadership, we trained our model using historical data and continuously fine-tuned it as new anomalies emerged. By testing against real-world data, we refined the model’s accuracy and optimized it to balance false positives and negatives, achieving an acceptable tolerance threshold.
+                    </div>
+                    
             
-                <a href="#ex-wedding" rel="modal:open" class='proj-header'>
-                    Taco Bell Weddings<br>
-                    <div class="proj-text">Get married in a Taco Bell.</div>
-                    <div class="proj-image"><img src='/storage/app/media/icon-wedding.jpg'></div>
-                    <div class='proj-link'>More info</div>
-                </a>
-                
-                
-                <div id="ex-wedding" class="modal">
-                      <div class="proj-header">Taco Bell Weddings<br></div>
-                      <span class="proj-image"><img src='/storage/app/media/icon-wedding.jpg'></span>
-                      <div class="proj-byline">That's right - people can get married inside a Taco Bell. This e-commerce platform is built with shopify and a custom front end layer that allows couples to reserve their time in the Las Vegas Taco Bell Wedding Chapel.<br><br><a href='http://tacobellwedding.com' target='new'>visit TacoBellWedding.com</a><br><br>
-                      </div>
-                      <a href="#" rel="modal:close">Close</a>
+
+                    
+                    <br><br>
+                    <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                       
+                     
                 </div>
-                  
-                
-            
+          
         </li>
+        
+       
+        
         <li>
-                
-                <a href="#ex-sabsat" rel="modal:open" class='proj-header'>
-                    Taco Bell World Series<br>
-                    <div class="proj-text">Everyone gets a free taco.</div>
-                    <div class="proj-image"><img src='/storage/app/media/icon-sabsat.jpg'></div>
+               <a href="#surveyjunkie-uk" rel="modal:open" class='proj-headline' onClick="gtag('event', 'VW Mobile');">
+                    SurveyJunkie UK<br>
+                    <div class="proj-text pad-5px">Mobile iOS & Android and Web</div>
+                    <div class="proj-image"><img style='border:1px solid black;' src='/storage/app/media/surveyjunkie-screens.jpg'></div>
                     <div class='proj-link'>More info</div>
                 </a>
                 
                 
-                <div id="ex-sabsat" class="modal">
-                      <div class="proj-header">Taco Bell World Series<br></div>
-                      <span class="proj-image"><img src='/storage/app/media/icon-sabsat.jpg'></span>
-                      <div class="proj-byline">Scaling up "Taco Bell Steal A Base" promo for the first baserunner of the World Series who steals a base. At that moment, everyone receives a free taco. Preparing the hosting environment for the  instantaneous, impending event is critical since a burst of web traffic arrives exactly 10 seconds after the base is stolen.<br><br>
+                <div id="surveyjunkie-uk" class="modal">
+                      <div class="proj-header">Survey Junkie<br></div>
+                      
+                      <div class="proj-byline">
+                     Survey Junkie is a free app that allows users to earn cash or gift cards by completing surveys. It partners with market research companies to gather insights on consumer preferences, products, and shopping habits.
+                      
+                      <div style='padding-top:15px;padding-bottom:15px;'>
+                          <div style='border:0px solid black;padding-bottom:15px;'>
+                              <img style='width:100%;border: 1px solid black;' src='/storage/app/media/surveyjunkie-survey.jpg'><br />
+                              
+                              
+                               <div style='padding-top:15px;padding-bottom:15px;'>
+                            <div  style='background-color:#e1e8e1;padding:10px;'>
+                                <b>Technology Stack:</b>
+                                <span style='font-size:10pt;'><br>
+                                AWS Lambda, S3, K8S, EC2, RDS, Kinesis, AWS Step functions <br>
+                                <b>Presentation Layer: </b>React, iOS, Android<br>
+                                <b>API/Wrapper:</b> Java Spring microservices<br>
+                                </span>
+                            </div><br />
+                            
+                            
+                            As Principal Product Manager for SurveyJunkie.com, I led the effort to decouple DISQO's core functionality into a modular API portfolio while scaling mobile applications to new international markets, including the UK and Australia. This project, paired with marketing campaign automation, contributed to over $10M in revenue growth for DISQO in 2022.<br><br>
+
+I managed the full SDLC, from strategic guidance to roadmap ownership. This included close collaboration with stakeholders to define and translate requirements, overseeing vendor procurement, and ensuring reliable partnerships for API development. I also conducted sprint ceremonies and facilitated cross-functional team collaboration, aligning deployment planning with project timelines.<br><br>
+
+The API portfolio I oversaw covered identity, profile management, activities, payments, fraud prevention, and compliance with GDPR/CCPA. By decoupling these functions, we improved flexibility and efficiency, enabling easier maintenance and future updates.<br><br>
+
+As Principal Product Manager, my leadership and strategic decisions were key in expanding Survey Junkie’s market presence, implementing an API-driven approach, and achieving substantial revenue growth. <br>
+                            <img style='width:100%;border: 1px solid black;' src='/storage/app/media/surveyjunkie-redeem.jpg'><br />
+                        </div>
+                             
+                          </div>
                       </div>
-                      <a href="#" rel="modal:close">Close</a>
-                </div>
-              
-        </li>
-        <li>
-               <a href="#ex-taco" rel="modal:open" class='proj-header'>
-                    Tacobell.com E-commerce Website<br>
-                    <div class="proj-text">Order your food online.</div>
-                    <div class="proj-image"><img src='/storage/app/media/hype.gif'></div>
-                    <div class='proj-link'>More info</div>
-                </a>
-                
-                
-                <div id="ex-taco" class="modal">
-                      <div class="proj-header">Tacobell.com E-commerce Website<br></div>
-                      <span class="proj-image"><img src='/storage/app/media/icon-computer.gif'></span>
-                      <div class="proj-byline">Instead of just making another “the new fastfoodbrand.com", Taco Bell built TA.CO, an eCommerce site that lets fans customize anything they want from the Taco Bell menu, then order it over and over again. All with the fun, freedom, and creativity that you’d expect from a website with the URL TA.CO.<br><br>
-                      </div>
-                      <a href="#" rel="modal:close">Close</a>
+                    
+                     
                 </div>
           
         </li>
          <li>
-                <a href="#ex-testkitchen" rel="modal:open" class='proj-header'>
-                    Taco Bell Test Kitchen<br>
-                    <div class="proj-text">Taco Bell's new creations start here.</div>
-                    <div class="proj-image"><img src='/storage/app/media/icon-opentable.jpg'></div>
-                    <div class='proj-link'>More info</div>
-                </a>
-                
-                
-                <div id="ex-testkitchen" class="modal">
-                      <div class="proj-header">Taco Bell Test Kitchen<br></div>
-                      <span class="proj-image"><img src='/storage/app/media/icon-opentable.jpg'></span>
-                      <div class="proj-byline">This website allows users to make their online reservation to the Taco Bell headquarters Tesk Kitchen. The site is a single page web app on a static S3 bucket. Using AJAX and oAuth2.0 token access users are able to reserve their place through the Opentable API. Lambda and API Gateway were also integrated as a wrapper to further protect the OpenTable API from being exposed/misused.
-                        <br><br><a href='https://www.thetacobelltestkitchen.com/' target='new'>visit TheTacoBellTestKitchen.com</a><br><br>
-                      </div>
-                      <a href="#" rel="modal:close">Close</a>
-                </div>
-              
-        </li>
-        <li>
-                <a href="#ex-cmab" rel="modal:open" class='proj-header'>
-                    Real California Milk<br>
-                    <div class="proj-text">Happy Cows, recipes and more.</div>
-                    <div class="proj-image"><img src='/storage/app/media/icon-cmab.jpg'></div>
-                    <div class='proj-link'>More info</div>
-                </a>
-                
-                
-                <div id="ex-cmab" class="modal">
-                      <div class="proj-header">Real California Milk<br></div>
-                      <span class="proj-image"><img src='/storage/app/media/icon-cmab.jpg'></span>
-                      <div class="proj-byline">California Milk Advisory board (CMAB) is the company behind the "happy cows" commercials that Deutsch has produced for years. “Happy cows come from california”, remember?  Deutsch redesigned the Real California Milk website and build an advanced search engine to discover site content, based on AWS ElasticSearch.<br><br><a href='http://RealCaliforniaMilk.com' target='new'>visit RealCaliforniaMilk.com</a>  <br><br>
-                      </div>
-                      <a href="#" rel="modal:close">Close</a>
-                </div>
-        </li>
-        
-         <li>
-                <a href="#ex-fuelcaster" rel="modal:open" class='proj-header'>
+                <a href="#ex-fuelcaster" rel="modal:open" class='proj-headline' onClick="gtag('event', 'Fuelcaster Modal');">
                     Esurance Fuelcaster<br>
-                    <div class="proj-text">See tomorrow's gas prices.</div>
-                    <div class="proj-image"><img src='/storage/app/media/poster.jpg'></div>
+                    <div class="proj-text pad-5px">See tomorrow's gas prices today.</div>
+                    <div class="proj-image"><img   style='border:1px solid black;' src='/storage/app/media/icon-fuelcaster-1.jpg'></div>
                     <div class='proj-link'>More info</div>
                 </a>
                 
                 
                 <div id="ex-fuelcaster" class="modal" >
-                  <p><div class="proj-header">Esurance Fuelcaster<br></div>
-                      <video id="fcvid" class="video-js vjs-default-skin" controls preload="none" style='width:90%;' poster="/storage/app/media/poster.jpg" data-setup="{}">
-        			    <source src="/storage/app/media/Esurance_FuelcasterASV_011.webm" type='video/webm' />
-        			    <source src="/storage/app/media/Esurance_FuelcasterASV_011.ogv" type='video/ogg' />
+                 
+                      <div class="proj-headline">Esurance Fuelcaster<br></div>
+                      
+                      <video id="fcvid" class="video-js vjs-default-skin" playsinline preload="metadata" style='width:100%;' poster="/storage/app/media/icon-fuelcaster-1.jpg" data-setup="{}">
         			    <source src="/storage/app/media/Esurance_FuelcasterASV_011.mp4" type='video/mp4' />
         			 </video>
-                         <div class='proj-text'>Buy gas today, or wait for tomorrow? Find out with Fuelcaster, the gas-price predictor. Just enter your zip, and we’ll give you real-time gas prices and a prediction of whether they’ll rise or fall tomorrow.<br><br><a href='http://fuelcaster.com' target='new'>visit Fuelcaster.com</a>
+        			<!-- 
+        			 <video id="fcvid" class="video-js vjs-default-skin" playsinline="" loop="" controls="" preload="metadata" style="width:100%;" 
+        			 poster="/storage/app/media/icon-fuelcaster-1.jpg" autoplay data-setup="{}">
+                        <source src="/storage/app/media/Esurance_FuelcasterASV_011.mp4" type="video/mp4" />
+                    </video>
+ -->
+                     <div class='proj-byline'>Buy gas today, or wait for tomorrow? Find out with Fuelcaster, the gas-price predictor. 
+                     Esurance, an online insurer owned by Northfield Township, Ill.-based Allstate (NYSE:ALL), has introduced a new website that can predict the rise and fall of local gas prices, and can provide details of gas stations with the cheapest prices in a particular zip code.
+
+                     <div class='proj-stack'>
+                            <div  style='background-color:#e1e8e1;padding:10px;'>
+                            <b>Technology Stack:</b><br>
+                            <span style='font-size:10pt;'>
+                           
+                            <b>Presentation layer:</b><br>
+                            Linux Ubuntu<br>
+                            Apache<br>
+                            Backbone JS<br><br>
+                            
+                             <b>Data layer (DAL):</b><br>
+                            Windows Server 2012, IIS 8.0<br>
+                            WCF Services, C#<br><br>
+                            
+                            <b>Jenkins:</b> Automated deployment, git webhook<br>
+                            <b>Data I/O:</b> C# API proxy service</span>
                         </div>
-                  </p>
-                  <a href="#" rel="modal:close">Close</a>
-                </div>
-        </li>
-        <li>
-                <a href="#ex-emoji" rel="modal:open" class='proj-header'>
-                    Taco Bell Emoji Engine<br>
-                    <div class="proj-text">Taco Bell's quest for the Taco Emoji.</div>
-                    <div class="proj-image"><img src='/storage/app/media/icon-emojiengine.jpg'></div>
-                    <div class='proj-link'>More info</div>
-                </a>
-                
-                <div id="ex-emoji" class="modal" style='color:black;'>
-                  <p><div class='proj-header'>Taco Bell Emoji Engine<br></div>
-                      <iframe src="https://player.vimeo.com/video/165211740?api=1" style='width:100%;'  frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" class="vimeo" id="video"></iframe>
-                      
-                      
-                    <div class='proj-text'>Taco Bell launched a Twitter conversation about tacos with custom tweets that featured the new taco emoji.<br><br>
-                        <a href='https://lookwhatwedid.co/tacobellemoji-awards/' target='new'>visit Emoji Engine</a>  
                     </div>
-                  </p>
-                  <a href="#" rel="modal:close">Close</a>
+
+                    
+                    Once users enter their zip code on the new website -- Fuelcaster.com -- the system tells them whether to buy gas in that area now or wait until the next day for a cheaper price. <span><img style='width:65%;padding: 10 10 10 10;float: right;' src="/storage/app/media/icon-fuelcaster-wait.jpg" alt="image" /></span>According to the site, it can predict if the gas price will rise or fall within the next 24 hours with almost 90 percent accuracy.
+
+                        Just enter your zip, and we’ll give you real-time gas prices and a prediction of whether they’ll rise or fall tomorrow.<br><br>
+                         <a href='http://fuelcaster.com' target='new'>visit Fuelcaster.com</a>
+                         <br><br>                         
+                         <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                    </div>
                 </div>
-            
         </li>
         
         <li>
-                <a href="#ex-smiledrive" rel="modal:open" class='proj-header'>
+                <a href="#ex-smiledrive" id="smilebutton" rel="modal:open" class='proj-headline' onClick="gtag('event', 'Smiledrive Modal');">
                     VW SmileDrive powered by Google<br>
-                    <div class="proj-text">Enjoy the ride.</div>
-                    <div class="proj-image"><img src='/storage/app/media/icon-smiledrive-b.jpg'></div>
+                    <div class="proj-text pad-5px">Enjoy the ride</div>
+                    <div class="proj-image"><img style='border:1px solid black;'  src='/storage/app/media/icon-smiledrive.jpg'></div>
                     <div class='proj-link'>More info</div>
                 </a>
                 
                 
                 <div id="ex-smiledrive" class="modal">
-                      <div class="proj-header">VW SmileDrive powered by Google<br></div>
-                      <span class="proj-image">
-                          <video id='sdvid' class="video-js vjs-default-skin" controls preload="none"  poster="/storage/app/media/icon-smiledrive.jpg" data-setup="{}">
+                      <div class="proj-headline">VW SmileDrive powered by Google<br></div>
+                   
+                    <video id="sdvid" class="video-js vjs-default-skin" playsinline  style='width:100%;' preload="metadata" 
+                    poster="/storage/app/media/icon-smiledrive.jpg" data-setup="{}">
+        			    <source src="/storage/app/media/smiledrive-video.mp4" type='video/mp4' />
+        			 </video>
+                  
+
+                     <!-- 
+                     
+                      
+                   <video id="sdvid" class="video-js vjs-default-skin" playsinline="" loop="" controls="" 
+                   style="width:100%;" preload="metadata" poster="/storage/app/media/icon-smiledrive.jpg" autoplay data-setup="{}">
+                        <source src="/storage/app/media/smiledrive-video.mp4" type="video/mp4">
+                    </video>
+
+        			 
+        			 
+                      <video id='sdvid' class="video-js vjs-default-skin" controls preload="none"  style='width:100%;' poster="/storage/app/media/icon-smiledrive-b.jpg" data-setup="{}">
             			    <source src="/storage/app/media/VW_SmileDrive_Awards_Campaign_Version.webm" type='video/webm' />
             			    <source src="/storage/app/media/VW_SmileDrive_Awards_Campaign_Version.ogv" type='video/ogg' />
             			    <source src="/storage/app/media/VW_SmileDrive_Awards_Campaign_Version.mp4" type='video/mp4' />
-            			 </video>
-                      </span>
-                      <div class="proj-byline">Smiledrive was a native app for your mobile device to record your driving adventures and share pictures/highlights with friends online. <br><br>
+            		  </video>
+                     -->
+                      
+                      <div class="proj-byline">Whether you’re commuting to work or traveling cross-country, SmileDrive records your drives, awards you stickers for unique accomplishments (such as going on a holiday trip or driving on an unusually cold day), and turns road trips into shareable stories.The app can be used with any vehicle, even if it’s not a Volkswagen.
+                         
+                            <div class='proj-stack'>
+                                <div  style='background-color:#e1e8e1;padding:10px;'>
+                                <b>Technology Stack:</b><br>
+                                <span style='font-size:10pt;'>
+                                
+                                <b>Android APK:</b><br>
+                                Android SDK<br>
+                                Google Picasa API<br><br>
+                                
+                                <b>Presentation layer:</b><br>
+                                Linux Ubuntu<br>
+                                Apache<br>
+                                Backbone JS<br>
+                                Google Picasa API<br>
+                                App Engine API<br><br>
+                                
+                                <b>Data layer (DAL):</b><br>
+                                Google Cloud Platform<br>
+                                Google App Engine<br><br>
+                                
+                                <b>Notifications API:</b><br>
+                                Urban Airship
+                                
+                                
+                                </div>
+                            </div>
+
+
+                          SmileDrive was designed to work with any car equipped with Bluetooth technology, and it runs in the background to record data for both everyday commutes and road trips.
+                          <span><img style='width:100%;padding: 10 10 10 10;' src="/storage/app/media/icon-smiledrive-a.jpg" alt="image" /></span>
+                          After a drive is complete, the app uses factors like location, distance, time and weather to deliver users their Smile Score and awards them with “stickers,” i.e. virtual bumper stickers, for unique accomplishments earned while out and about.<br><br>
+                          
+                          The app has also re-imagined the classic “PunchDub” game, allowing people to collect “punches” each time they encounter another Volkswagen SmileDrive user running the app on the road.
+                          <span><img style='width:100%;padding: 10 10 10 10;' src="/storage/app/media/icon-smiledrive-d.jpg" alt="image" /></span>
+                          Additionally, SmileDrive offers the ability to create a Smilecast: a dynamic travelogue filled with the captured photos, maps of the trip, status updates, as well as other memories that are collected on a single URL. Through the URL, friends and family that you designate can view the Smilecast after the trip has ended. <br><br>
+                          
+                          Through the user’s Google+ account, friends can be invited to follow these trips online, commenting on photos and posts along the way, which allows for “Seamless Sharing”.<br><br>
+                          <span><img style='width:100%;padding: 10 10 10 10;' src="/storage/app/media/icon-smiledrive-e.jpg" alt="image" /></span>
+                          Another feature includes “Smilecast” where friends can be added as a passenger in the car via Google+, or watch the journey on the web. At the end of the trip, the driver receives a trip highlight video compiling the highlights of their trip, which can then be shared with friends and family.<br><br>
+                          
+                          
+                      
+                      <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                      
                       </div>
-                      <a href="#" rel="modal:close">Close</a>
+                      
                 </div>
                 
         </li>
         
+        
+       <li>
+                <a href="#ex-taco" rel="modal:open" class='proj-headline' onClick="gtag('event', 'TA.CO Modal');">
+                    Tacobell.com<br>
+                    <div class="proj-text pad-5px">Online Ordering Experience</div>
+                    <div class="proj-image"><img  style="border:solid black 1px;" src='/storage/app/media/taco-transform.gif'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                
+                <div id="ex-taco" class="modal">
+                <div class="proj-headline">Tacobell.com E-commerce Website<br></div>
+                <div align=center>
+                      <span><img style='width:95%;padding:10px;' src='/storage/app/media/hype-new.gif'></span><br>
+                </div>
+                    <!--
+                    <video id="" class="video-js vjs-default-skin" controls playsinline preload="none" style='width:100%;'  data-setup="{}" poster="/storage/app/media/taco-transform.gif">
+                        <source src="/storage/app/media/hola009_1600x900.ogg" type="video/ogg">
+                        <source src="/storage/app/media/hola009_1600x900.webm" type="video/webm">
+                        <source src="/storage/app/media/hola009_1600x900.mp4" type="video/mp4">
+                    </video>
+                      -->
+                    <div class="proj-byline">
+                        <h1 class="center-content-title">Hola, World! The New Taco Bell Is Here</h1>
+                         <div class="proj-text">Instead of just making another “the new fastfoodbrand.com", Taco Bell built TA.CO, an eCommerce site that lets fans customize anything they want from the Taco Bell menu, then order it over and over again. All with the fun, freedom, and creativity that you’d expect from a website with the URL TA.CO.<br><br>
+                         
+                         To enhance the customer experience, we developed a mobile ordering API that seamlessly integrated with Tacobell.com and mobile apps. This integration allowed customers to conveniently place their orders online, further driving revenue growth. Through the project's efforts, Taco Bell experienced a notable increase in revenue, achieving a 15% growth. Furthermore, the brand's awareness significantly improved, solidifying its position as a top player in the fast-food industry.
+                       </div>
+                    </div>
+
+                      
+                    <div  class='proj-stack'> 
+                        <div style='background-color:#e1e8e1;padding:10px;'>
+                            <b>Technology Stack:</b><br>
+                            <span style='font-size:10pt;'>
+                                <b>CMS:</b> Sitecore CMS, C# ASP.NET<br><br>
+                                <b>Presentation layer:</b> Backbone JS<br><br>
+                                <b>APIs:</b><br>
+                                Menu API, Product API, Ordering API, Calories API<br><br>
+                                
+                                <b>Hosting:</b><br>
+                                EC2, RDS, SQL Server(s), Mongo DB<br>
+                                OpsWorks + Chef<br>
+                                Application load balancer<br>
+                                Cloudwatch, AlertLogic, WAF<br>
+                                Cloudfront, S3<br>
+                                Lambda, API Gateway<br>
+                                AWS Key Management Service<br>
+                                Jenkins / CICD (automated deployment)<br>
+                            </span>
+                        </div>
+                    </div>
+                      
+                   
+                    <div class="proj-text">
+                    <!-- 
+                    Taco Bell's next-generation E-commerce website (https://ta.co). The infrastructure design incorporated high-availability for multiple EC2 servers across several availability zones, an auto-scaling launch configuration and a load-balancer (ELB) to distribute traffic. 
+                    
+ 
+                        Hosted entirely in the (AWS) cloud, the website serves over 3 million visitors each month and has successfully scaled out to 48+ servers during Super Bowl and other high-profile events (before scaling back in to normal capacity).  The site included a Sitecore CMS for managing content on all of Taco Bell's menu items, homepage feed content and promotional pages. It also allows site administrators to post HTML content to the platform easily withour requiring a full application deployment.
+                        -->
+                        
+                        As the Technology Director and Project Manager on the Taco Bell project, my primary responsibility was to oversee the transformation of Taco Bell into a fresh and appealing consumer brand while rebuilding the Tacobell.com platform into a fully scalable architecture. The project aimed to integrate menu exploration and online ordering into the platform, set up a world-class CMS platform for launching iterative campaign promotions, and significantly increase Taco Bell's revenue.<br><br>
+
+To achieve these objectives, I took on various project management responsibilities. I provided product leadership, taking ownership of the roadmap and ensuring alignment with stakeholders' expectations. Additionally, I managed vendor procurement, ensuring that the project had the necessary resources and expertise to succeed. As a team leader, I facilitated sprint ceremonies, guiding the development team through the project's agile methodology. I also played a key role in deployment planning, ensuring a smooth and efficient rollout of new features and updates.<br><br>
+
+
+
+The project achieved significant outcomes under my guidance. The TA.CO platform was successfully migrated to AWS (Amazon Web Services) infrastructure, providing a highly scalable and reliable foundation for Taco Bell's digital presence. We implemented the Sitecore CMS, allowing for effortless launching of iterative campaign promotions. This CMS platform enabled Taco Bell to quickly adapt its marketing strategies and content to engage with its target audience effectively.<br><br>
+
+
+
+
+
+
+
+
+                       </div>
+                    
+                    
+                    <div align=center>
+                      <img style='width:80%;padding-top:15px;' src="/storage/app/media/taco-fail.gif" alt="image" /><br><br></span>
+                    </div>
+
+                    <div style='font-weight:bold;'>RESULTS<br>
+                        So much for never visiting a fast food site...<br><br>
+                        40% HIGHER AVERAGE ORDER THAN ON THE MOBILE APP.<br><br>
+                        68% OF ALL ORDERS ON TA.CO ARE CUSTOMIZED<br><br>
+                        
+                        
+                        
+                        3.8M UNIQUE VISITS IN THE FIRST MONTH<br><br>
+                        250% HIGHER AVERAGE ORDER THAN IN STORE<br><br>
+                    </div>
+                    <br>
+                     
+                <br>
+                    <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                       
+                     
+                </div>
+          
+        </li>
+         <li>
+                <a href="#ex-belluminati" rel="modal:open" class='proj-headline' onClick="gtag('event', 'Belluminati Modal');">
+                   Belluminati<br>
+                    <div class="proj-text pad-5px">Who's behind Taco Bell's dollar menu?</div>
+                    <div class="proj-image"><img style='border:1px solid black;'  src='/storage/app/media/btest.gif'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                <!-- Enclosure -->
+                <div id="ex-belluminati" class="modal">
+                      <div class="proj-headline">Taco Bell: Belluminati<br></div>
+                      
+                      <div class="proj-byline"> 
+                      <div align=center>
+                           <video id="bmvid" class="video-js vjs-default-skin" loop playsinline preload="none" style='width:100%;' poster="/storage/app/media/btest.gif" data-setup="{}">
+        			    <source src="/storage/app/media/belluminati.mp4" type='video/mp4'  />
+        			 </video>
+                       </div>Taco Bell has over 20 different items for just a dollar each. How could so much decadence cost just one dollar? Who's really behind this? Is it the Illuminati? Or is it...the Belluminati?
+                      
+                       
+                        <div  class='proj-stack'> 
+                            <div style='background-color:#e1e8e1;padding:10px;'>
+                                <b>Technology Stack:</b><br>
+                                <span  style='font-size:10pt;'>
+                                <b>Shopify:</b> E-commerce platform<br>
+                                <b>Shopify:</b> Liquid HTML Theme<br>
+                                <b>NodeJS:</b><br>
+                                Automated blue/green theme deployment<br>
+                                AWS Lambda & API Gateway<br>
+                                AWS Key Management Service
+                                </span>
+                            </div>
+                        </div>
+                     
+                     To host the campaign's secret unlocking mechanism, we developed a private storefront on Shopify that only those "in the know" could access. Taco Bell's followers were given three puzzles to solve to get the password to open the web store.
+                     
+                     <div align=center><img style='width:80%;padding:10px;' src="/storage/app/media/icon-belluminati-dollarmarker.jpg" alt="image" /></div>
+                     
+                     The keys to the puzzle and resulting password required additional security considerations like (a) where to store the result, (b) when to deploy the second puzzle (c) how to identify disqualifying behavior, etc.
+                        
+                        Fans that were able to solve the puzzles were given the URL to the secret Shopify store to buy exclusive Belluminati labeled items. 
+                        <span class='proj-image'><div align=center><img style='width:70%;padding:10px;' src="/storage/app/media/belluminati-shopify.png" alt="image" /></div></span>
+                        Each time the store went live it would sell out - in just a matter of minutes. 
+                        
+                        
+                        <br><br><a href='https://www.google.com/search?q=belluminati+taco+bell' target='new'>see Belluminati News</a><br><br>
+                        <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                      </div>
+                     
+                </div>
+              
+        </li>
+        
+         <li>
+               <a href="#ex-vwmobile" rel="modal:open" class='proj-headline' onClick="gtag('event', 'VW Mobile');">
+                    Volkswagen.com<br>
+                    <div class="proj-text pad-5px">Next generation mobile site</div>
+                    <div class="proj-image"><img src='/storage/app/media/icon-vwlogo.jpg'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                
+                <div id="ex-vwmobile" class="modal">
+                      <div class="proj-header">VW.com 2.0 Web Platform<br></div>
+                      
+                      <div class="proj-byline">
+                      DeutschLA and Volkswagen partnered to overhaul the VW.com website and car inventory search tools. Automotive smartphone shoppers can now appreciate a sleek new design and navigation, plus multiple new tools like Compare, Inventory Search and Payment Calculator.
+                      
+                      The Volkswagen inventory website, or VW 2.0 as it was dubbed internally was a massive undertaking.
+                      
+                      <div style='padding-top:15px;padding-bottom:15px;'>
+                          <div style='border:1px solid black;'>
+                              <img style='width:100%;' src='/storage/app/media/icon-vwmobile-1.png'>
+                              <img style='width:100%;' src='/storage/app/media/icon-vwmobile-3.png'>
+                          </div>
+                      </div>
+                      
+                      The site was built on the Sencha Touch framework to make it appear and feel like a native mobile application experience. The website was a massive improvement over the previous m.vw.com. The site jumped in JD Power & Associates Automotive Mobile Site rankings more than any site had in one year before it.
+
+                       
+                        <div style='padding-top:15px;padding-bottom:15px;'>
+                            <div  style='background-color:#e1e8e1;padding:10px;'>
+                                <b>Technology Stack:</b>
+                                <span style='font-size:10pt;'><br>
+                                <b>OS:</b> Linux Ubuntu, Apache<br>
+                                <b>Presentation Layer:</b> Sencha Touch, Javascript, Jquery<br>
+                                <b>API/Wrapper:</b> PHP<br>
+                                </span>
+                            </div>
+                        </div>
+                        
+                     “The 2013 Automotive Mobile Site Study, which evaluates the usefulness of OEM websites in terms of meeting the needs of consumers shopping for a vehicle, and therefore driving traffic to a showroom, has ranked the newly redesigned mobile vw.com  sixth out of 33 brand sites.”
+                     
+                      <br><br>
+                      <div class='proj-byline'>
+                        <a href='https://thefwa.com/cases/vw-mobile-site-2-0' target='new'>see Mobile 2.0 News</a>  <br><br>
+                        <a href='https://thefwa.com/cases/vw-mobile-site-2-0' target='new'>Awards</a>  <br><br>
+                      <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                      </div>
+                     
+                </div>
+          
+        </li>
+        
+        
+       <li>
+                <a href="#ex-zillow" rel="modal:open" class='proj-headline' onClick="gtag('event', 'Zillow Modal');">
+                    Zillow.com<br>
+                    <div class="proj-text pad-5px">Zillow Dynamic Ad Tech</div>
+                    <div class="proj-image"><img style='border:1px solid black;' src='/storage/app/media/Zillow-Logo.png'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                
+                <div id="ex-zillow" class="modal">
+                <div class="proj-headline">Zillow Dynamic Ad Tech<br></div>
+                <div align=center>
+                      <span><img style='width:99%;padding:10px;' src='/storage/app/media/zillow-ad-sample.jpg'></span><br>
+                </div>
+                    <!--
+                    <video id="" class="video-js vjs-default-skin" controls playsinline preload="none" style='width:100%;'  data-setup="{}" poster="/storage/app/media/taco-transform.gif">
+                        <source src="/storage/app/media/hola009_1600x900.ogg" type="video/ogg">
+                        <source src="/storage/app/media/hola009_1600x900.webm" type="video/webm">
+                        <source src="/storage/app/media/hola009_1600x900.mp4" type="video/mp4">
+                    </video>
+                      -->
+                    <div class="proj-byline">
+                        <h1 class="center-content-title">Zillow dynamic ads</h1>
+                         <div class="proj-text">Working with Zillow and their data team, we created a dynamic HTML5 ad module that populates current Zillow listings based on user's local zip code. The ad was deployed to multiple US housing markets on Facebook and ad networks, and was highly successful in generating click-through traffic for Zillow's high profile website.
+                         </div>
+                    </div>
+
+                      
+                    <div  class='proj-stack'> 
+                        <div style='background-color:#e1e8e1;padding:10px;'>
+                            <b>Technology Stack:</b><br>
+                            <span style='font-size:10pt;'>
+                                <b>Presentation layer:</b><br />
+                                Lightweight HTML5 Ad Module<br>
+                                Displayed on Facebook, Ad networks<br><br>
+                                <b>APIs:</b><br>
+                                Home Listing API to retrieve listings by zipcode/region<br><br>
+                                
+                                <b>Hosting:</b><br>
+                                EC2 Linux Ubuntu<br>
+                                SFTP transfer of data<br>
+                                nodeJS with daily Crontask to refresh listings<br>
+                                Jenkins (automated deployment)<br>
+                            </span>
+                        </div>
+                    </div>
+                      
+                   
+                <br>
+                    <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                       
+                     
+                </div>
+          
+        </li>
+        
+        
+         <li>
+                <a href="#ex-mariokart" rel="modal:open" class='proj-headline' onClick="gtag('event', 'Mario Kart Modal');">
+                    Mario Kart Tour!<br>
+                    <div class="proj-text pad-5px">Mario Kart Tour!</div>
+                    <div class="proj-image"><img src='/storage/app/media/mariokart-logo.png'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                
+                <div id="ex-mariokart" class="modal">
+                      <div class="proj-headline">Mario Kart Tour!<br></div>
+                      
+                      <div class="proj-byline"> <div align=center>
+                           <span class="proj-image">
+                           <video id="mk8vid" class="video-js vjs-default-skin" playsinline loop  preload="none" style='width:100%;' data-setup="{}">
+        			    <source src="/storage/app/media/mario.mp4" type="video/mp4">
+        			 </video>
+                           </span>
+                       </div>
+                       Deutsch Advertising partnered with Nintendo to release the Mario Kart 8 Deluxe mobile app. In this partnership I had the opportunity to coordinate integration of the design and launch of their Facebook app in support of the product.
+                       
+                        <div class='proj-stack'>
+                            <div  style='background-color:#e1e8e1;padding:10px;'>
+                            <b>Technology Stack:</b><br>
+                            <span style='font-size:10pt;'>
+                                       <b>ReactJS:</b> single page web app<br>
+                                     <b>S3 bucket:</b>
+                                </span>
+                            </div>
+                        </div>            
+                        
+                       
+                      </div>
+                      
+                </div>
+        </li>
+        
+                
+        
+        
+       
+         <li>
+                <a href="#ex-cmab" rel="modal:open" class='proj-headline' onClick="gtag('event', 'CMAB Modal');">
+                    Real California Milk<br>
+                    <div class="proj-text pad-5px">Happy Cows, recipes and more.</div>
+                    <div class="proj-image"><img style='border:1px solid black;'  src='/storage/app/media/icon-cmab.jpg'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                <!-- Enclosure -->
+                <div id="ex-cmab" class="modal">
+                
+                   
+                       
+                            <div class="proj-headline">Real California Milk<br></div>
+                                  <div align=center>
+                                  <video id="cmabvid" class="video-js vjs-default-skin" loop playsinline style='width:100%;'  data-setup="{}"  preload="none">
+        			                   <source src="https://s3.amazonaws.com/static.realcaliforniamilk.com/media/assets/Q3_OUR_FARMS.mp4" type='video/mp4' />
+        			             </video>
+        			             
+                                      
+                                  </div>
+                                  <div class="proj-byline">
+                                      
+                                      California Milk Advisory board (CMAB) is the company behind the "happy cows" commercials that Deutsch has produced for years. “Happy cows come from california”, remember?
+                                  <!-- -->
+                                  
+                                   <span class="proj-image"><img style='width:85%;'src='/storage/app/media/icon-cmab.jpg'></span>
+                                     
+                                      Deutsch redesigned the Real California Milk website using October CMS and mySQL in a CI/CD pipeline. An advanced search engine for querying site content is also integrated via a proxy service hosted in an AWS ElasticSearch index.<br><br>
+                                      <a href='http://RealCaliforniaMilk.com' target='new'>visit RealCaliforniaMilk.com</a>  <br><br>
+                                  <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                                  </div>
+                                  
+                          
+                </div>
+        </li>
+       
+        
+         <li>
+            
+                <a href="#ex-wedding" rel="modal:open" class='proj-headline' onClick="gtag('event', 'TB Weddings Modal');">
+                    Taco Bell Weddings<br>
+                    <div class="proj-text pad-5px">Get married in a Taco Bell.</div>
+                    <div class="proj-image"><img  style='border:1px solid black;' src='/storage/app/media/icon-wedding.jpg'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                <!-- Enclosure -->
+                <div id="ex-wedding" class="modal">
+                      <div class="proj-headline">Taco Bell Weddings<br></div>
+                      
+                      <span class='proj-text' style='padding-top:5px;'>
+                      <div align=center>
+                           <span class="proj-image"><img style='width:55%;' src="/storage/app/media/icon-saucepacket.jpg" alt="image" /></span>
+                    </div>
+                        
+                        <div  class='proj-byline'>
+                            This online store is built with Shopify e-commerce platform with and a custom presentation layer that allows couples to reserve their time in the Las Vegas Taco Bell Wedding Chapel. 
+                            
+                             <div  class='proj-stack'> 
+                                <div style='background-color:#e1e8e1;padding:10px;'>
+                                    <b>Technology Stack:</b>  <span style='font-size:10pt;'><br>
+                                    <b>Shopify:</b> E-commerce platform<br>
+                                    <b>Shopify:</b> Liquid HTML + CSS<br>
+                                    <b>NodeJS:</b> Shopify theme blue/green deploy<br>
+                                    <b>Data I/O:</b> Shopify API<br>
+                                    </span>
+                                </div>
+                            </div>
+                        
+                            Couples can also purchase (here) an entire wedding package, which includes a Taco Bell garter, bow tie, sauce packet wedding bouquet, "Just Married" t-shirts, Taco Bell champagne flutes, a Cinnabon wedding cake, and a Taco 12 Pack.
+                            
+                            <span><img style='width:55%;padding: 10 10 10 10;float: right;' src="/storage/app/media/icon-weddingkiss.jpg" alt="image" /></span>
+                            
+                            "In just one year, we have had over 60 couples, averaging more than one per week, tie the knot with us at our Las Vegas Cantina," said Marisa Thalberg, Chief Brand Officer of Taco Bell, in a statement. "And as we round this anniversary, we are excited to make future ceremonies even bigger and better than before." The chain has expanded their "Party Room," so more guests can attend the Vegas cemerony.
+
+                        <br><br><a href='http://tacobellwedding.com' target='new'>visit TacoBellWedding.com</a><br><br>
+                        
+                        <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                        </div>
+                    
+                   
+                    
+                 </div>
+                 
+            
+        </li>
+        
+        
+        <li>
+                
+                        <a href="#ex-ntd-twitter" rel="modal:open" class='proj-headline' onClick="gtag('event', 'TacoGram Modal');">
+                            National Taco Day - #TacoGram<br>
+                            <div class="proj-text pad-5px">Personalized Taco Bell Greeting Card.</div>
+                            <div class="proj-image"><img  style='border:1px solid black;' src='/storage/app/media/icon-ntd-twitter.gif'></div>
+                            <div class='proj-link'>More info</div>
+                        </a>
+                
+                
+                        <div id="ex-ntd-twitter" class="modal">
+                            <div class="proj-headline">National Taco Day - #TacoGram<br></div>
+                            <div align=center><span class="proj-image"><img style='width:65%;'src='/storage/app/media/icon-ntd-twitter.gif'></span></div>
+                            <div class="proj-byline">We launched a Taco Bell twitter bot allowing fans to post personalized taco greeting cards to their friends.</div>
+                        
+                        
+                        
+                            <div>
+                            <div style='background-color:#e1e8e1;padding:10px;'>
+                                        <b>Technology Stack:</b><br> 
+                                        <span style='font-size:10pt;'>                               
+                                        <b>NodeJS:</b><br>
+                                        Twitter hashtag request listener<br>
+                                        Twitter API response generator<br>
+                                        <b>Lambda/NodeJS:</b> Greeting card generator<br>
+                                        <b>Data I/O:</b> Twitter API, oAuth2.0<br>
+                                        <b>Jenkins:</b> Automated blue/green deployment<br>
+                                        </span>
+                                    </div>
+                            </div>
+                            
+                            <div class="proj-byline">
+                                Anyone tweeting the "To" and "From" message with the #TacoGram hashtag (illustrated above) automatically triggers the process and generates a new post on Taco Bell's Twitter page with over 1.9M followers.
+                                <div align=center><span class="proj-image"><img style='width:100%;' src='/storage/app/media/icon-ntd-1.jpg'></span></div>
+                               <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                               <br><br>
+                            </div>
+                        </div>
+        </li>
+        
+        <li>
+                
+                <a href="#ex-sabsat" rel="modal:open" class='proj-headline' onClick="gtag('event', 'SABSAT Modal');">
+                    Taco Bell World Series<br>
+                    <div class="proj-text pad-5px">Everyone gets a free taco.</div>
+                    <div class="proj-image"><img  style='border:1px solid black;' src='/storage/app/media/icon-sabsat.jpg'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                
+                <div id="ex-sabsat" class="modal">
+                      <div class="proj-headline">Taco Bell World Series<br></div>
+                      <div align=center><span class="proj-image"><img style='width:75%;' src='/storage/app/media//icon-sabsat.jpg'></span></div><br>
+                      <div class="proj-byline">
+                            <span style='font-weight:bolder;'>The challenge:<br></span> Making sure Tacobell.com stays up during a critical traffic rush.<br><br>
+                     
+                            <span style='font-weight:bolder;'>Background:<br></span>
+                            The "Taco Bell Steal A Base"  <span class="proj-image"><img style='width:50%;padding: 10 10 10 10;float: right;'src='/storage/app/media/icon-sabsat-burst.png'></span> promo gives EVERYONE a free taco when the first baserunner of the series steals a base. In that 10 second moment, web traffic leaps 1000% and stress is on for the application.  Since an instantaneous burst of web traffic does not allow time for auto-scaling, preparing the hosting environment ahead of game time for the event is critical. <br><br>
+                      
+                      
+                            <span style='font-weight:bolder;'>The Remedy:<br></span>
+                            Launching additional EC2 instances 24 hrs before game time along with pre-warming the load balancer provides the needed capacity for the moment a deluge of visitors arrives. No slowdowns. No swea<br><br>
+                          <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                      </div>
+                </div>
+              
+        </li>
+        
+        <!--  -->
+        
+        
+        
+        <div id="ex-testkitchen" class="modal">
+                      <div class="proj-headline">Taco Bell Test Kitchen<br></div>
+                      
+                      <div class="proj-byline"> <div align=center>
+                           <span class="proj-image"><img  style='border:1px solid black;'  src='/storage/app/media/icon-tktable.jpg'></span>
+                       </div>
+                       
+                       We turned a fast-food taco joint into one of the most exclusive restaurants in America by giving people access to Taco Bell's experimental test kitchen and offering reservations through OpenTable. 
+                       
+                       The idea was so popular, the site earned over 325 million media impressions with ZERO media buy.
+                      
+                       <img style='width:100%;' src="/storage/app/media/ipad-testkitchen.jpg" alt="image" />
+                       Almost immediately after our reservation site went live, Test Kitchen by Taco Bell was completely booked. Fans even called Taco Bell headquarters and tried to beg their way in (it didn't work).
+                       
+                        <div class='proj-stack'>
+                            <div  style='background-color:#e1e8e1;padding:10px;'>
+                            <b>Technology Stack:</b><br>
+                            <span style='font-size:10pt;'>
+                                       <b>ReactJS:</b> single page web app<br>
+                                       <b>AWS:</b> S3 Static website, Route53, Cloudfront<br>
+                                       <b>NodeJS:</b> Lambda API proxy service <br>
+                                       <b>Data I/O:</b><br>
+                                          OpenTable reservation API<br>
+                                          PII captured to secured EC2<br>
+                                          SQL Server hosted in private subnet<br>
+                                          Bastion host in public subnet
+                                </span>
+                            </div>
+                        </div>            
+                        
+                        <span><img style='width:45%;padding: 10 10 10 10;float: right;' src="/storage/app/media/icon-testkitchen-1.png" alt="image" /></span>Those who didn't get a seat were added to a waitlist. And the lucky ones who did, got treated to the most innovative Taco Bell food they've ever seen.
+                        The site allows users to make their online reservation from a single React.js web app running on a static S3 bucket.  AJAX calls to the OpenTable reservations API are secured using AJAX and oAuth2.0 access tokens.<br><br>To further secure the OpenTable API, a Lambda function and API Gateway were integrated as a proxy service to provide additional security and throttling, if necessary.
+                        <br><br><a href='https://www.thetacobelltestkitchen.com/' target='new'>visit TheTacoBellTestKitchen.com</a><br><br>
+                        <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                      </div>
+                      
+                </div>
+        </li>
+        
+       
+
+        <li>
+                <a href="#ex-quesalupa" rel="modal:open" class='proj-headline' onClick="gtag('event', 'Quesalupa Modal');">
+                    Taco Bell went all-in on Super Bowl<br>
+                    <div class="proj-text pad-5px">Quesalupa - Marketing for the future.</div>
+                    <div class="proj-image"><img   style='border:1px solid black;' src='/storage/app/media/icon-quesalupa.jpg'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                <div id="ex-quesalupa" class="modal" style='color:black;'>
+                  
+                  <div class='proj-headline'>Taco Bell Quesalupa Pre-Order</div>
+                      
+                  <video id="qlvid" class="video-js vjs-default-skin" playsinline preload="none" style='width:100%;' poster="/storage/app/media/icon-quesalupa.jpg" data-setup="{}">
+    			    <source src="/storage/app/media/quesalupa.mp4" type='video/mp4' />
+    			 </video>
+                    <div class='proj-byline'>
+                    
+                    <b>The product:</b> Taco Bell's new Quesalupa<br><br>
+                    
+                    <b>The premise:</b> The fast food company's new "cheese in a shell" is poised to be bigger than a series of trends — manbuns, Tinder, drones, aliens, basketball star James Harden's beard, hoverboards — or as Harden calls them "those things."
+                    <br><br>
+                    <b>The punchline:</b> Each trend leads to another: Dudes with manbuns call out Tinder, someone who calls himself the Texas Law Hawk name-checks Harden's beard. When someone says that the Quesalupa will be bigger than football, soccer star Neymar Jr. says that it will be bigger than real fútbol. Basically, the commercial tells us, the Quesalupa will be "bigger than everything." Just when you think the commercial's over, there's "Star Trek" icon George Takei, who laughs maniacally and takes a bite.<br><br>
+
+                        The verdict: We probably don't need the Quesalupa, but we'll concede that the company nabbed some amazing celebrity cameos for this one.<br><br>
+                        <a href='https://www.google.com/search?q=quesalupa+taco+bell+super+bowl' target='new'>see Quesalupa News</a><br><br>
+
+                    <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                    </div>
+                  
+                </div>
+            
+        </li>
+        <!-- 
+        <li>
+                <a href="#ex-emoji" rel="modal:open" class='proj-headline'>
+                    Taco Bell Emoji Engine<br>
+                    <div class="proj-text pad-5px">Taco Bell's quest for the Taco Emoji.</div>
+                    <div class="proj-image"><img src='/storage/app/media/icon-emojiengine.jpg'></div>
+                    <div class='proj-link'>More info</div>
+                </a>
+                
+                <div id="ex-emoji" class="modal" style='color:black;'>
+                  <p><div class='proj-headline'>Taco Bell Emoji Engine</div>
+                  <iframe src="https://player.vimeo.com/video/165211740?api=1"  frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" class="proj-video" id="video"></iframe>
+                      
+                      
+                    <div class='proj-byline'>Taco Bell launched a Twitter conversation about tacos with custom tweets that featured the new taco emoji.<br><br>
+                        <a href='https://lookwhatwedid.co/tacobellemoji-awards/' target='new'>visit Emoji Engine</a>  
+                    </div>
+                    <a href="javascript:void(0);return false" rel="modal:close">Close</a>
+                  </p>
+                 
+                </div>
+            
+        </li>
+        -->
+        
+       
+        
+        
     </ul>
     
-    
-    
-    
-    <footer class="major">
-        <ul class="actions">
-            
-        </ul>
-    </footer>
+  
 </section>

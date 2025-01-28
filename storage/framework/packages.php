@@ -1,11 +1,4 @@
 <?php return array (
-  'laravel/tinker' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    ),
-  ),
   'jenssegers/date' => 
   array (
     'providers' => 
@@ -15,6 +8,20 @@
     'aliases' => 
     array (
       'Date' => 'Jenssegers\\Date\\Date',
+    ),
+  ),
+  'laravel/tinker' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'nesbot/carbon' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Carbon\\Laravel\\ServiceProvider',
     ),
   ),
 );

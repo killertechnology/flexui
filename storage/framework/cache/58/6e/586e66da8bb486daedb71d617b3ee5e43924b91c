@@ -1,0 +1,196 @@
+1738017908a:1:{s:21:"html_base/scripts.htm";a:6:{s:8:"fileName";s:21:"html_base/scripts.htm";s:7:"content";s:3198:"==
+{% if this.theme.load_octobercms_framework %}
+{% framework extras %}
+{% endif %}
+
+<script>
+    window.embeddedChatbotConfig = {
+        chatbotId: "ajJuvTQrsk958PF1zWn9n",
+        domain: "www.chatbase.co"
+    }
+</script>
+<script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="ajJuvTQrsk958PF1zWn9n"
+    domain="www.chatbase.co"
+    defer>
+</script>
+
+<script src="{{ ['assets/js/jquery.appear.js','assets/js/jquery.scrollex.min.js', 'assets/js/jquery.scrolly.min.js', 'assets/js/skel.min.js', 'assets/js/util.js', 'assets/js/main.js']|theme }}"></script>
+<script language="javascript">
+
+
+
+var section1Scrolled = false;
+var section2Scrolled = false;
+var section3Scrolled = false;
+var section4Scrolled = false;
+var section5Scrolled = false;
+
+function isScrolledIntoView(el,section) {
+    var rect = el.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    
+    if ((section===1) && (isVisible) && (!(section1Scrolled))){        
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+       
+        
+        section1Scrolled = true;  
+    }
+    
+    if ((section===2) && (isVisible) && (!(section2Scrolled))){
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        
+        
+        section2Scrolled = true;  
+    }
+    
+    if ((section===3) && (isVisible) && (!(section3Scrolled))){
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        section3Scrolled = true;  
+         
+        
+        $(document.body).css('background-image',"#f3f3f3  url('/storage/app/media/icon-ntd-twitter.gif') no-repeat right top");
+    }
+    
+    if ((section===4) && (isVisible) && (!(section4Scrolled))){  
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        section4Scrolled = true;  
+        
+    }
+    if ((section===5) && (isVisible) && (!(section5Scrolled))){  
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        section5Scrolled = true;  
+    }
+    return isVisible;
+}
+
+$('#about').appear();
+$('#projects').appear();
+$('#CMS').appear();
+$('#tools').appear();
+$('#portfolio').appear();
+$(document.body).on('appear', '#about', function(e) {     isScrolledIntoView(this,1); });
+$(document.body).on('appear', '#projects', function(e) {    isScrolledIntoView(this,2); });
+$(document.body).on('appear', '#CMS', function(e) { isScrolledIntoView(this,3); });
+$(document.body).on('appear', '#tools', function(e) {    isScrolledIntoView(this,4);  });
+$(document.body).on('appear', '#portfolio', function(e) {    isScrolledIntoView(this,5);  });
+
+
+
+      
+</script>";s:5:"mtime";i:1738014825;s:6:"markup";s:3195:"{% if this.theme.load_octobercms_framework %}
+{% framework extras %}
+{% endif %}
+
+<script>
+    window.embeddedChatbotConfig = {
+        chatbotId: "ajJuvTQrsk958PF1zWn9n",
+        domain: "www.chatbase.co"
+    }
+</script>
+<script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="ajJuvTQrsk958PF1zWn9n"
+    domain="www.chatbase.co"
+    defer>
+</script>
+
+<script src="{{ ['assets/js/jquery.appear.js','assets/js/jquery.scrollex.min.js', 'assets/js/jquery.scrolly.min.js', 'assets/js/skel.min.js', 'assets/js/util.js', 'assets/js/main.js']|theme }}"></script>
+<script language="javascript">
+
+
+
+var section1Scrolled = false;
+var section2Scrolled = false;
+var section3Scrolled = false;
+var section4Scrolled = false;
+var section5Scrolled = false;
+
+function isScrolledIntoView(el,section) {
+    var rect = el.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+    var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    
+    if ((section===1) && (isVisible) && (!(section1Scrolled))){        
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+       
+        
+        section1Scrolled = true;  
+    }
+    
+    if ((section===2) && (isVisible) && (!(section2Scrolled))){
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        
+        
+        section2Scrolled = true;  
+    }
+    
+    if ((section===3) && (isVisible) && (!(section3Scrolled))){
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        section3Scrolled = true;  
+         
+        
+        $(document.body).css('background-image',"#f3f3f3  url('/storage/app/media/icon-ntd-twitter.gif') no-repeat right top");
+    }
+    
+    if ((section===4) && (isVisible) && (!(section4Scrolled))){  
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        section4Scrolled = true;  
+        
+    }
+    if ((section===5) && (isVisible) && (!(section5Scrolled))){  
+        gtag('event', 'Section ' + section + ' viewed', {
+          'event_category' : 'scrollView',
+          'event_label' : 'sectionView'
+        });
+        section5Scrolled = true;  
+    }
+    return isVisible;
+}
+
+$('#about').appear();
+$('#projects').appear();
+$('#CMS').appear();
+$('#tools').appear();
+$('#portfolio').appear();
+$(document.body).on('appear', '#about', function(e) {     isScrolledIntoView(this,1); });
+$(document.body).on('appear', '#projects', function(e) {    isScrolledIntoView(this,2); });
+$(document.body).on('appear', '#CMS', function(e) { isScrolledIntoView(this,3); });
+$(document.body).on('appear', '#tools', function(e) {    isScrolledIntoView(this,4);  });
+$(document.body).on('appear', '#portfolio', function(e) {    isScrolledIntoView(this,5);  });
+
+
+
+      
+</script>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

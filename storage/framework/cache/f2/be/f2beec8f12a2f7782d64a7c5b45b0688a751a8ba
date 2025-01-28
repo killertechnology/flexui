@@ -1,0 +1,37 @@
+1738017908a:1:{s:11:"stellar.htm";a:6:{s:8:"fileName";s:11:"stellar.htm";s:7:"content";s:529:"description = "Stellar OnePage with Smooth Scroll"
+==
+<html>
+<head>
+<script language="javascript">if (location.href.indexOf('https://flexui.com/')>-1){ location.href='https://kevinfessler.info'; }</script>
+    {% partial "html_base/meta_head" %}
+</head>
+<body>
+
+    <div id="wrapper">
+        {% partial "all_pages/header" %}
+        {% partial "home_page/navigation" %}
+        
+        {% page %}
+        
+       {% partial "all_pages/footer" %}
+    </div>
+    {% partial "html_base/scripts" %}
+</body>
+</html>";s:5:"mtime";i:1738014827;s:6:"markup";s:475:"<html>
+<head>
+<script language="javascript">if (location.href.indexOf('https://flexui.com/')>-1){ location.href='https://kevinfessler.info'; }</script>
+    {% partial "html_base/meta_head" %}
+</head>
+<body>
+
+    <div id="wrapper">
+        {% partial "all_pages/header" %}
+        {% partial "home_page/navigation" %}
+        
+        {% page %}
+        
+       {% partial "all_pages/footer" %}
+    </div>
+    {% partial "html_base/scripts" %}
+</body>
+</html>";s:4:"code";N;s:11:"description";s:34:"Stellar OnePage with Smooth Scroll";}}

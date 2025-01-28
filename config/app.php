@@ -1,12 +1,13 @@
 <?php
 
 
-$envURL = 'http://origin.flexui.com';
+$envURL = 'https://kevinfessler.info';
 
 //echo $_SERVER['SERVER_NAME'] . '<br>test<br>';
 //echo $_SERVER[‘HTTP_HOST’];
 if ($_SERVER['SERVER_NAME'] != 'origin.flexui.com') {
-    $envURL = 'https://flexui.com/';
+    $envURL = 'https://kevinfessler.info/';
+ //flexui.com
 }
 
 return [
@@ -49,9 +50,8 @@ return [
     | your application so that it is used when running Artisan tasks.
     |
     */
-	'url' => $envURL ,
-    // 'url' => 'http://18.236.147.223/october/',
-//	'url' => 'https://flexui.com/',
+
+    'url' => 'http://origin.flexui.com/install-master/',
 
     /*
     |--------------------------------------------------------------------------
@@ -61,6 +61,14 @@ return [
     | Here you may specify the default timezone for your application, which
     | will be used by the PHP date and date-time functions. We have gone
     | ahead and set this to a sensible default for you out of the box.
+    |
+    |
+    | -------- STOP! --------
+    | Before you change this value, consider carefully if that is actually
+    | what you want to do. It is HIGHLY recommended that this is always set
+    | to UTC (as your server & DB timezone should be as well) and instead you 
+    | use cms.backendTimezone to set the default timezone used in the backend
+    | to display dates & times.
     |
     */
 
@@ -103,7 +111,7 @@ return [
     |
     */
 
-    'key' => 'g9dr5m9MmMOuv6723VzOnIwrJfiEVYsQ',
+    'key' => 'YiG7HEkcwvUWzQ2WslRT4gYPJxpzuFZe',
 
     'cipher' => 'AES-256-CBC',
 

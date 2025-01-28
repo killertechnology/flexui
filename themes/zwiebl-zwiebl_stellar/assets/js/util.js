@@ -102,19 +102,19 @@
 
 			// Methods.
 				$this._hide = function(event) {
-
+                       
 					// Already hidden? Bail.
 						if (!config.target.hasClass(config.visibleClass))
 							return;
 
 					// If an event was provided, cancel it.
 						if (event) {
-
+                           
 							event.preventDefault();
 							event.stopPropagation();
 
 						}
-
+                        
 					// Hide.
 						config.target.removeClass(config.visibleClass);
 
@@ -142,7 +142,7 @@
 
 			// Hide on click.
 				if (config.hideOnClick) {
-
+                    
 					$this.find('a')
 						.css('-webkit-tap-highlight-color', 'rgba(0,0,0,0)');
 
@@ -162,6 +162,7 @@
 
 							// Hide panel.
 								$this._hide();
+								
 
 							// Redirect to href.
 								window.setTimeout(function() {
@@ -231,7 +232,7 @@
 								$this.touchPosX = null;
 								$this.touchPosY = null;
 								$this._hide();
-
+                               
 								return false;
 
 							}
@@ -269,6 +270,7 @@
 			// Event: Hide panel on body click/tap.
 				$body.on('click touchend', function(event) {
 					$this._hide(event);
+					
 				});
 
 			// Event: Toggle.
@@ -276,7 +278,7 @@
 
 					event.preventDefault();
 					event.stopPropagation();
-
+                     
 					config.target.toggleClass(config.visibleClass);
 
 				});
@@ -286,7 +288,7 @@
 			// Event: Hide on ESC.
 				if (config.hideOnEscape)
 					$window.on('keydown', function(event) {
-
+                        
 						if (event.keyCode == 27)
 							$this._hide(event);
 
@@ -352,7 +354,7 @@
 				.on('focus', function() {
 
 					var i = $(this);
-
+                    
 					if (i.attr('name').match(/-polyfill-field$/))
 						return;
 

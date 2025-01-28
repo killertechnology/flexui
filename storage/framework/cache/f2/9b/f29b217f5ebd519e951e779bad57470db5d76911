@@ -1,0 +1,44 @@
+1738017908a:1:{s:27:"home_page/section_three.htm";a:6:{s:8:"fileName";s:27:"home_page/section_three.htm";s:7:"content";s:2072:"==
+<section class="main">
+<header class="major" style='padding-top:5px;' id="CMS">
+        <h2>DevOps</h2>
+    </header>
+
+    <div style='font-weight:normal;font-size:13pt;letter-spacing: -0.005em;'>
+              Each dev project should have a seamless workflow where code changes can be introduced, tested and promoted rapidly - without failure.<br><br>
+              
+              <b>AUTOMATION</b><br>
+              Automating the software delivery process using continuous integration and delivery pipelines (CI/CD) greatly enhances the team's ability to track and manage feature sets during a sprint. The ideal configuration is where code changes are automatically deployed on approval of pull request (git). The goal being to allow changes to migrate through environments separate from the underlying CMS architecture and content.<br><br>
+              
+                <div align=center><span class="image main" style='padding-bottom:10px;'><img src='/storage/app/media/ci-pipeline.png'></span></div>
+              
+              <b>NEXT-GEN SOFTWARE</b><br>
+                As a certified AWS Solutions Architect Associate I specialize in migrating organizations to the cloud by designing next generation software architectures and working  with development teams to deliver applications that are scalable, fault tolerant and highly available.<br><br>
+                
+                <b>DEPLOY THE BEST TOOLS</b><br>
+                I am proficient in designing, installing and maintaining platform architectures and web applications running on linux or Windows, using a variety of deployment tools and languages. I am also skilled in database management including RDS and noSQL databases in the cloud. I am well-versed in installing and configuring VPCs and network security for projects including applications that handle or capture personal privacy information (PII).<br>
+                <div align=center><span class="image main"><img src="/storage/app/media/projects/VPC-Diagram.gif" alt=""></span></div>
+            </div>
+
+</section>";s:5:"mtime";i:1738014825;s:6:"markup";s:2069:"<section class="main">
+<header class="major" style='padding-top:5px;' id="CMS">
+        <h2>DevOps</h2>
+    </header>
+
+    <div style='font-weight:normal;font-size:13pt;letter-spacing: -0.005em;'>
+              Each dev project should have a seamless workflow where code changes can be introduced, tested and promoted rapidly - without failure.<br><br>
+              
+              <b>AUTOMATION</b><br>
+              Automating the software delivery process using continuous integration and delivery pipelines (CI/CD) greatly enhances the team's ability to track and manage feature sets during a sprint. The ideal configuration is where code changes are automatically deployed on approval of pull request (git). The goal being to allow changes to migrate through environments separate from the underlying CMS architecture and content.<br><br>
+              
+                <div align=center><span class="image main" style='padding-bottom:10px;'><img src='/storage/app/media/ci-pipeline.png'></span></div>
+              
+              <b>NEXT-GEN SOFTWARE</b><br>
+                As a certified AWS Solutions Architect Associate I specialize in migrating organizations to the cloud by designing next generation software architectures and working  with development teams to deliver applications that are scalable, fault tolerant and highly available.<br><br>
+                
+                <b>DEPLOY THE BEST TOOLS</b><br>
+                I am proficient in designing, installing and maintaining platform architectures and web applications running on linux or Windows, using a variety of deployment tools and languages. I am also skilled in database management including RDS and noSQL databases in the cloud. I am well-versed in installing and configuring VPCs and network security for projects including applications that handle or capture personal privacy information (PII).<br>
+                <div align=center><span class="image main"><img src="/storage/app/media/projects/VPC-Diagram.gif" alt=""></span></div>
+            </div>
+
+</section>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

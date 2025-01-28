@@ -1,0 +1,996 @@
+<?php
+
+/* /var/www/html/october/flexui/themes/zwiebl-zwiebl_stellar/partials/home_page/credentials_one.htm */
+class __TwigTemplate_ea00e8ed19cd8621c042e8c3448053db3b9ade67e92facaa03d4713b8ea0f2a7 extends Twig_Template
+{
+    private $source;
+
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        // line 1
+        echo "<section class=\"main\">
+    <div class=\"spotlight\">
+    <div class=\"text--center\">
+      <ql-avatar class=\"profile-avatar l-mbl\" size=\"160\" src=\"https://lh3.googleusercontent.com/a/ACg8ocK8nwWWttLpXDiV6Hfei7QvriTKcjf22YtUCrEdUjSDEnGghNHI=s320-c\"></ql-avatar>
+      <h1 class=\"ql-display-small\">
+        Kevin Fessler
+      </h1>
+      <p class=\"ql-body-large l-mbl\">
+        Member since 2024
+      </p>
+      <div class=\"profile-league\">
+        <h2 class=\"ql-headline-medium\">Diamond League</h2>
+        <strong>40425 points</strong>
+        <img width=\"120\" src=\"https://cdn.qwiklabs.com/assets/leagues/diamond_sm-6bb229d2803807410116694fb0aed7f6f43aa63a.png\">
+      </div>
+      <div class=\"profile-badges\">
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12996870\"><img alt=\"Badge for Manage Kubernetes in Google Cloud\" src=\"https://cdn.qwiklabs.com/%2BlsBsryVyG0kEn7y2kgNUoCJxiq4mL%2BFeCfysb3Cw%2BI%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Manage Kubernetes in Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 24, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-0\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12984785\"><img alt=\"Badge for Analyze Images with the Cloud Vision API\" src=\"https://cdn.qwiklabs.com/zf4W09BpF8ntvKRBqeH3VntMFtb%2Bz8Itfc9FSCiAlL0%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Analyze Images with Vision API
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 23, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-1\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975884\"><img alt=\"Badge for Using the Google Cloud Speech API\" src=\"https://cdn.qwiklabs.com/ozpXveWdV5lENdKrbC8ihsR%2FEXR%2BGgU0HEX4s%2B%2BNzzA%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Using Google Cloud Speech API
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-2\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975650\"><img alt=\"Badge for Use APIs to Work with Cloud Storage\" src=\"https://cdn.qwiklabs.com/Ep3VKgjzXiYW%2BvS7bWyrPt7IUqjeBat3dkphmkFwsRU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Use APIs with Cloud Storage
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-3\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975513\"><img alt=\"Badge for Build Real World AI Applications with Gemini and Imagen\" src=\"https://cdn.qwiklabs.com/RQhZyhu6J%2FB6MoY2p4wAb4HWxjAuBOsmG71ZtUW9hUQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Build Real World AI Applications with Gemini and Imagen
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-4\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975129\"><img alt=\"Badge for Get Started with Pub/Sub\" src=\"https://cdn.qwiklabs.com/L6bZhlHU%2Fa5AvlMb74RyGFqLK9mY%2B4WVMaMoN2HlxKg%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Get Started with Pub/Sub
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-5\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12974819\"><img alt=\"Badge for Innovating with Google Cloud Artificial Intelligence\" src=\"https://cdn.qwiklabs.com/5Eeu42AHV2aw8H1cAhXhkn0OkcMbB7xKoAqE%2BS2sUxQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Innovating with Google Cloud Artificial Intelligence
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-6\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12974214\"><img alt=\"Badge for Vector Search and Embeddings\" src=\"https://cdn.qwiklabs.com/CQgD7nYkimIfVLOup8I%2FzxIIu2KR5ZEVTBpjTJtNiJI%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Vector Search and Embeddings
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-7\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12943209\"><img alt=\"Badge for Store, Process, and Manage Data on Google Cloud - Command Line\" src=\"https://cdn.qwiklabs.com/gWocJ60SXeIzZzn337fpJ%2BywELAkYTw%2FO7jS8qZEuVU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Store, Process, and Manage Data on Google Cloud - Command Line
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 20, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-8\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12942813\"><img alt=\"Badge for Conversation Design Fundamentals\" src=\"https://cdn.qwiklabs.com/CMjgGKeUxOuuP9OmHwyUglgvUr0b2xNUNhShZPM7KC4%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Conversation Design Fundamentals
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 20, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-9\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12941997\"><img alt=\"Badge for Gemini in Google Drive\" src=\"https://cdn.qwiklabs.com/4RegS2GVYx%2Bh0q25xpLS%2FwpHoA5CL4mOJxeQsI2tddw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Drive
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 20, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-10\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12923431\"><img alt=\"Badge for Gemini in Google Meet\" src=\"https://cdn.qwiklabs.com/amFaR05aFXKueJ%2F6kMD%2FfYGt2C3fqQLc9edWljwffXc%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Meet
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-11\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12922135\"><img alt=\"Badge for Gemini for end-to-end SDLC\" src=\"https://cdn.qwiklabs.com/z0BlsSGTmnHj4EB0OE6peGyU9eoX2az8HsxQ0Efd2Is%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for end-to-end SDLC
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-12\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12922062\"><img alt=\"Badge for Gemini for Data Scientists and Analysts\" src=\"https://cdn.qwiklabs.com/WocEYTNVCWHTlc3ksbPHayroka%2BkNO%2FkNrNeJQRjmfw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Data Scientists and Analysts
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-13\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12921399\"><img alt=\"Badge for Gemini in Google Slides\" src=\"https://cdn.qwiklabs.com/PlN4TqqQNmBYkb1B%2FIQCkW5rucxTbBhycvXs9itiivQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Slides
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-14\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12921298\"><img alt=\"Badge for Working with Notebooks in Vertex AI\" src=\"https://cdn.qwiklabs.com/mn671kOpjYOs5%2FiW6YiuU%2B6fTufzEgA7gNqmEVwkJS4%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Working with Notebooks in Vertex AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-15\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12918468\"><img alt=\"Badge for Gemini for DevOps Engineers\" src=\"https://cdn.qwiklabs.com/gps2wQan8zBKwpRTEbIDCsv1YquGrPHk31oVSVZLy9A%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for DevOps Engineers
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-16\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12904038\"><img alt=\"Badge for Gemini in Google Docs\" src=\"https://cdn.qwiklabs.com/t7fEj2llWAH1nalLAYFWZ6feGTfuh4%2BvppmCEzbG8S0%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Docs
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-17\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903899\"><img alt=\"Badge for Gemini for Security Engineers\" src=\"https://cdn.qwiklabs.com/RVkl7s7BSTWUF%2BtcICHwBL1yrZoDZCrQ%2BuFPG9b0dZc%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Security Engineers
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-18\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903886\"><img alt=\"Badge for Gemini for Network Engineers\" src=\"https://cdn.qwiklabs.com/VPyLqRbmy%2Fnu2SvMfe1z3l0c06dIMHSGytoitnjplPs%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Network Engineers
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-19\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903772\"><img alt=\"Badge for Gemini in Gmail\" src=\"https://cdn.qwiklabs.com/vVyd70vFyK0NyEQGIUbthQnRHiTL7lmKjy7nZ%2BEBouw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Gmail
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-20\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903465\"><img alt=\"Badge for Gemini for Cloud Architects\" src=\"https://cdn.qwiklabs.com/X9MnwyG9E6pRwzS2dnnTrcSJEagfvkhFYX95RqgGl8I%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Cloud Architects
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-21\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12798701\"><img alt=\"Badge for Introduction to Gemini for Google Workspace\" src=\"https://cdn.qwiklabs.com/DAKAxfw2JZNB0UuwypObZ05A%2FYFH8MGIBM2jmqxgg2c%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Gemini for Google Workspace
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-22\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12798632\"><img alt=\"Badge for Cloud Speech API: 3 Ways\" src=\"https://cdn.qwiklabs.com/P8gtKD1Uruqezk6G9XiuVAUW0tDqNDEj%2Bjy2Ftjqbjk%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Cloud Speech API: 3 Ways
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-23\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12797708\"><img alt=\"Badge for Encoder-Decoder Architecture\" src=\"https://cdn.qwiklabs.com/2xRnGnFVuBPtDyr3mfmusQE4oJBj8MhPyOvZJiVcVUo%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Encoder-Decoder Architecture
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-24\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12797306\"><img alt=\"Badge for Create Image Captioning Models\" src=\"https://cdn.qwiklabs.com/PlBRrnuepIze6QS%2B6w1B%2BjOvY%2FTk5Fb9YjRqqNDueLU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Create Image Captioning Models
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-25\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12796849\"><img alt=\"Badge for Transformer Models and BERT Model\" src=\"https://cdn.qwiklabs.com/RHCAzAokLRtA9dx2kc%2FqCZntv1zdO8HkDnqVLsgjgmI%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Transformer Models and BERT Model
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-26\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12795952\"><img alt=\"Badge for Attention Mechanism\" src=\"https://cdn.qwiklabs.com/Z0%2B9m2YEO91q9HIgWOLGfUwKrSAIJvIYp91KpcJcfEE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Attention Mechanism
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-27\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12795652\"><img alt=\"Badge for Google Chat\" src=\"https://cdn.qwiklabs.com/HeF4lCpHKDXVh%2FhYm8%2FyQaW%2Fq5blXyOjj%2BcHVNphlAg%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Google Chat
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-28\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12777278\"><img alt=\"Badge for Prompt Design in Vertex AI\" src=\"https://cdn.qwiklabs.com/N4sAjfgEfwsMjKxU89eGZKOGd1rD6QzJC%2B%2BkDjIwLFQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Prompt Design in Vertex AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-29\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12775781\"><img alt=\"Badge for Use Functions, Formulas, and Charts in Google Sheets\" src=\"https://cdn.qwiklabs.com/xavD9kHu4R2NvHrtlGSOyurEeqPlpZ2dXFtS4C66n00%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Use Functions, Formulas, and Charts in Google Sheets
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-30\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12762760\"><img alt=\"Badge for Managing Change when Moving to Google Cloud\" src=\"https://cdn.qwiklabs.com/5ji79XeMBfYIuhpOHHXCiX5reh3LuHTDiN%2FKt6dyAe0%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Managing Change when Moving to Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-31\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12761605\"><img alt=\"Badge for Hybrid Cloud Infrastructure Foundations with Anthos\" src=\"https://cdn.qwiklabs.com/ir%2FxFz4k4Dr1v61JTMzjk%2FMpsjzodgAWdiBOPNzIceU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Hybrid Cloud Infrastructure Foundations with Anthos
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-32\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12689394\"><img alt=\"Badge for Modernize Infrastructure and Applications with Google Cloud\" src=\"https://cdn.qwiklabs.com/qsYwo46FoZEggtASX6mkKShc2YoLcsEzh9Uif6Cp%2BlU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Modernize Infrastructure and Applications with Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  7, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-33\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12668387\"><img alt=\"Badge for Exploring Data Transformation with Google Cloud\" src=\"https://cdn.qwiklabs.com/V%2BQ2ynv3UQ%2FEiWm0GUSXx%2Ff0pcfvyRU6ZmLBMrlLN%2B8%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Exploring Data Transformation with Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-34\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12668095\"><img alt=\"Badge for Scaling with Google Cloud Operations\" src=\"https://cdn.qwiklabs.com/v8AL1tQJYNNUQj9j69SWe2nWtVX43vGx2fqU6%2FpZDAE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Scaling with Google Cloud Operations
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-35\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12667928\"><img alt=\"Badge for Google Sheets\" src=\"https://cdn.qwiklabs.com/f7sl8IQd5J1eqhRhtnD3P%2Bcmu3WL%2BmRgzzTyRRq%2B%2BYE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Google Sheets
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-36\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12667657\"><img alt=\"Badge for Google Calendar\" src=\"https://cdn.qwiklabs.com/kkpEU4%2BGCb1TpbSLEAaD58UBmRCrjQhOgSHmp8BmYkk%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Google Calendar
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-37\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12667407\"><img alt=\"Badge for Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation\" src=\"https://cdn.qwiklabs.com/NWTQODMJcXvT7VU9iz98tL7wYVclkbqLiVOXD62VLMw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-38\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12662348\"><img alt=\"Badge for Machine Learning Operations (MLOps)  for Generative AI \" src=\"https://cdn.qwiklabs.com/%2FtTuLG7JDJIBJQv5NcPAhKHQj5968aKafxSg0fCTiXY%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Machine Learning Operations (MLOps)  for Generative AI 
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-39\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12645468\"><img alt=\"Badge for Introduction to Image Generation\" src=\"https://cdn.qwiklabs.com/2meoeAeFaFRp5SS3rOx%2BrkHovx%2B%2FYhhByzW4OIhF5L4%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Image Generation
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  5, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-40\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12645376\"><img alt=\"Badge for Professional Machine Learning Engineer Study Guide\" src=\"https://cdn.qwiklabs.com/2yl3zhLNJP1Y38Orme3PHRwW3IGccYaEfWMx18m6SmE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Professional Machine Learning Engineer Study Guide
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  5, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-41\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12621614\"><img alt=\"Badge for Responsible AI: Applying AI Principles with Google Cloud\" src=\"https://cdn.qwiklabs.com/j9FCYFidyWQkhkDl9CGYUHzibvcGiWjFDOawbEmU%2FlY%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Responsible AI: Applying AI Principles with Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  4, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-42\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12198226\"><img alt=\"Badge for Introduction to Responsible AI\" src=\"https://cdn.qwiklabs.com/teuTnmFi96VycJaZff9bmOfUQMz1tgPiTtsCH2iBBY8%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Responsible AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Oct 18, 2024 EDT
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-43\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12198103\"><img alt=\"Badge for Introduction to Large Language Models\" src=\"https://cdn.qwiklabs.com/K7NHWTVqN1EabD1EdjC%2F84bsfFvBBAD0XNXw4OV7eZw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Large Language Models
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Oct 18, 2024 EDT
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-44\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12197838\"><img alt=\"Badge for Introduction to Generative AI\" src=\"https://cdn.qwiklabs.com/BJUVIP09izx0fRzcISX%2BJREqknYwQ5rUJpnelSuFlKc%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Generative AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Oct 18, 2024 EDT
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-45\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+      </div>
+    </div>
+  </section>";
+    }
+
+    public function getTemplateName()
+    {
+        return "/var/www/html/october/flexui/themes/zwiebl-zwiebl_stellar/partials/home_page/credentials_one.htm";
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  23 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("<section class=\"main\">
+    <div class=\"spotlight\">
+    <div class=\"text--center\">
+      <ql-avatar class=\"profile-avatar l-mbl\" size=\"160\" src=\"https://lh3.googleusercontent.com/a/ACg8ocK8nwWWttLpXDiV6Hfei7QvriTKcjf22YtUCrEdUjSDEnGghNHI=s320-c\"></ql-avatar>
+      <h1 class=\"ql-display-small\">
+        Kevin Fessler
+      </h1>
+      <p class=\"ql-body-large l-mbl\">
+        Member since 2024
+      </p>
+      <div class=\"profile-league\">
+        <h2 class=\"ql-headline-medium\">Diamond League</h2>
+        <strong>40425 points</strong>
+        <img width=\"120\" src=\"https://cdn.qwiklabs.com/assets/leagues/diamond_sm-6bb229d2803807410116694fb0aed7f6f43aa63a.png\">
+      </div>
+      <div class=\"profile-badges\">
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12996870\"><img alt=\"Badge for Manage Kubernetes in Google Cloud\" src=\"https://cdn.qwiklabs.com/%2BlsBsryVyG0kEn7y2kgNUoCJxiq4mL%2BFeCfysb3Cw%2BI%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Manage Kubernetes in Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 24, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-0\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12984785\"><img alt=\"Badge for Analyze Images with the Cloud Vision API\" src=\"https://cdn.qwiklabs.com/zf4W09BpF8ntvKRBqeH3VntMFtb%2Bz8Itfc9FSCiAlL0%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Analyze Images with Vision API
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 23, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-1\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975884\"><img alt=\"Badge for Using the Google Cloud Speech API\" src=\"https://cdn.qwiklabs.com/ozpXveWdV5lENdKrbC8ihsR%2FEXR%2BGgU0HEX4s%2B%2BNzzA%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Using Google Cloud Speech API
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-2\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975650\"><img alt=\"Badge for Use APIs to Work with Cloud Storage\" src=\"https://cdn.qwiklabs.com/Ep3VKgjzXiYW%2BvS7bWyrPt7IUqjeBat3dkphmkFwsRU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Use APIs with Cloud Storage
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-3\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975513\"><img alt=\"Badge for Build Real World AI Applications with Gemini and Imagen\" src=\"https://cdn.qwiklabs.com/RQhZyhu6J%2FB6MoY2p4wAb4HWxjAuBOsmG71ZtUW9hUQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Build Real World AI Applications with Gemini and Imagen
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-4\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12975129\"><img alt=\"Badge for Get Started with Pub/Sub\" src=\"https://cdn.qwiklabs.com/L6bZhlHU%2Fa5AvlMb74RyGFqLK9mY%2B4WVMaMoN2HlxKg%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Get Started with Pub/Sub
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-5\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12974819\"><img alt=\"Badge for Innovating with Google Cloud Artificial Intelligence\" src=\"https://cdn.qwiklabs.com/5Eeu42AHV2aw8H1cAhXhkn0OkcMbB7xKoAqE%2BS2sUxQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Innovating with Google Cloud Artificial Intelligence
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-6\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12974214\"><img alt=\"Badge for Vector Search and Embeddings\" src=\"https://cdn.qwiklabs.com/CQgD7nYkimIfVLOup8I%2FzxIIu2KR5ZEVTBpjTJtNiJI%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Vector Search and Embeddings
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 22, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-7\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12943209\"><img alt=\"Badge for Store, Process, and Manage Data on Google Cloud - Command Line\" src=\"https://cdn.qwiklabs.com/gWocJ60SXeIzZzn337fpJ%2BywELAkYTw%2FO7jS8qZEuVU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Store, Process, and Manage Data on Google Cloud - Command Line
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 20, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-8\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12942813\"><img alt=\"Badge for Conversation Design Fundamentals\" src=\"https://cdn.qwiklabs.com/CMjgGKeUxOuuP9OmHwyUglgvUr0b2xNUNhShZPM7KC4%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Conversation Design Fundamentals
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 20, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-9\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12941997\"><img alt=\"Badge for Gemini in Google Drive\" src=\"https://cdn.qwiklabs.com/4RegS2GVYx%2Bh0q25xpLS%2FwpHoA5CL4mOJxeQsI2tddw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Drive
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 20, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-10\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12923431\"><img alt=\"Badge for Gemini in Google Meet\" src=\"https://cdn.qwiklabs.com/amFaR05aFXKueJ%2F6kMD%2FfYGt2C3fqQLc9edWljwffXc%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Meet
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-11\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12922135\"><img alt=\"Badge for Gemini for end-to-end SDLC\" src=\"https://cdn.qwiklabs.com/z0BlsSGTmnHj4EB0OE6peGyU9eoX2az8HsxQ0Efd2Is%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for end-to-end SDLC
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-12\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12922062\"><img alt=\"Badge for Gemini for Data Scientists and Analysts\" src=\"https://cdn.qwiklabs.com/WocEYTNVCWHTlc3ksbPHayroka%2BkNO%2FkNrNeJQRjmfw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Data Scientists and Analysts
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-13\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12921399\"><img alt=\"Badge for Gemini in Google Slides\" src=\"https://cdn.qwiklabs.com/PlN4TqqQNmBYkb1B%2FIQCkW5rucxTbBhycvXs9itiivQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Slides
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-14\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12921298\"><img alt=\"Badge for Working with Notebooks in Vertex AI\" src=\"https://cdn.qwiklabs.com/mn671kOpjYOs5%2FiW6YiuU%2B6fTufzEgA7gNqmEVwkJS4%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Working with Notebooks in Vertex AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-15\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12918468\"><img alt=\"Badge for Gemini for DevOps Engineers\" src=\"https://cdn.qwiklabs.com/gps2wQan8zBKwpRTEbIDCsv1YquGrPHk31oVSVZLy9A%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for DevOps Engineers
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 19, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-16\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12904038\"><img alt=\"Badge for Gemini in Google Docs\" src=\"https://cdn.qwiklabs.com/t7fEj2llWAH1nalLAYFWZ6feGTfuh4%2BvppmCEzbG8S0%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Google Docs
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-17\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903899\"><img alt=\"Badge for Gemini for Security Engineers\" src=\"https://cdn.qwiklabs.com/RVkl7s7BSTWUF%2BtcICHwBL1yrZoDZCrQ%2BuFPG9b0dZc%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Security Engineers
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-18\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903886\"><img alt=\"Badge for Gemini for Network Engineers\" src=\"https://cdn.qwiklabs.com/VPyLqRbmy%2Fnu2SvMfe1z3l0c06dIMHSGytoitnjplPs%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Network Engineers
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-19\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903772\"><img alt=\"Badge for Gemini in Gmail\" src=\"https://cdn.qwiklabs.com/vVyd70vFyK0NyEQGIUbthQnRHiTL7lmKjy7nZ%2BEBouw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini in Gmail
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-20\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12903465\"><img alt=\"Badge for Gemini for Cloud Architects\" src=\"https://cdn.qwiklabs.com/X9MnwyG9E6pRwzS2dnnTrcSJEagfvkhFYX95RqgGl8I%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Gemini for Cloud Architects
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 18, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-21\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12798701\"><img alt=\"Badge for Introduction to Gemini for Google Workspace\" src=\"https://cdn.qwiklabs.com/DAKAxfw2JZNB0UuwypObZ05A%2FYFH8MGIBM2jmqxgg2c%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Gemini for Google Workspace
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-22\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12798632\"><img alt=\"Badge for Cloud Speech API: 3 Ways\" src=\"https://cdn.qwiklabs.com/P8gtKD1Uruqezk6G9XiuVAUW0tDqNDEj%2Bjy2Ftjqbjk%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Cloud Speech API: 3 Ways
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-23\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12797708\"><img alt=\"Badge for Encoder-Decoder Architecture\" src=\"https://cdn.qwiklabs.com/2xRnGnFVuBPtDyr3mfmusQE4oJBj8MhPyOvZJiVcVUo%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Encoder-Decoder Architecture
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-24\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12797306\"><img alt=\"Badge for Create Image Captioning Models\" src=\"https://cdn.qwiklabs.com/PlBRrnuepIze6QS%2B6w1B%2BjOvY%2FTk5Fb9YjRqqNDueLU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Create Image Captioning Models
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-25\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12796849\"><img alt=\"Badge for Transformer Models and BERT Model\" src=\"https://cdn.qwiklabs.com/RHCAzAokLRtA9dx2kc%2FqCZntv1zdO8HkDnqVLsgjgmI%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Transformer Models and BERT Model
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-26\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12795952\"><img alt=\"Badge for Attention Mechanism\" src=\"https://cdn.qwiklabs.com/Z0%2B9m2YEO91q9HIgWOLGfUwKrSAIJvIYp91KpcJcfEE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Attention Mechanism
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-27\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12795652\"><img alt=\"Badge for Google Chat\" src=\"https://cdn.qwiklabs.com/HeF4lCpHKDXVh%2FhYm8%2FyQaW%2Fq5blXyOjj%2BcHVNphlAg%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Google Chat
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 12, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-28\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12777278\"><img alt=\"Badge for Prompt Design in Vertex AI\" src=\"https://cdn.qwiklabs.com/N4sAjfgEfwsMjKxU89eGZKOGd1rD6QzJC%2B%2BkDjIwLFQ%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Prompt Design in Vertex AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-29\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12775781\"><img alt=\"Badge for Use Functions, Formulas, and Charts in Google Sheets\" src=\"https://cdn.qwiklabs.com/xavD9kHu4R2NvHrtlGSOyurEeqPlpZ2dXFtS4C66n00%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Use Functions, Formulas, and Charts in Google Sheets
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-30\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12762760\"><img alt=\"Badge for Managing Change when Moving to Google Cloud\" src=\"https://cdn.qwiklabs.com/5ji79XeMBfYIuhpOHHXCiX5reh3LuHTDiN%2FKt6dyAe0%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Managing Change when Moving to Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-31\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12761605\"><img alt=\"Badge for Hybrid Cloud Infrastructure Foundations with Anthos\" src=\"https://cdn.qwiklabs.com/ir%2FxFz4k4Dr1v61JTMzjk%2FMpsjzodgAWdiBOPNzIceU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Hybrid Cloud Infrastructure Foundations with Anthos
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov 11, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-32\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12689394\"><img alt=\"Badge for Modernize Infrastructure and Applications with Google Cloud\" src=\"https://cdn.qwiklabs.com/qsYwo46FoZEggtASX6mkKShc2YoLcsEzh9Uif6Cp%2BlU%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Modernize Infrastructure and Applications with Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  7, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-33\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12668387\"><img alt=\"Badge for Exploring Data Transformation with Google Cloud\" src=\"https://cdn.qwiklabs.com/V%2BQ2ynv3UQ%2FEiWm0GUSXx%2Ff0pcfvyRU6ZmLBMrlLN%2B8%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Exploring Data Transformation with Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-34\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12668095\"><img alt=\"Badge for Scaling with Google Cloud Operations\" src=\"https://cdn.qwiklabs.com/v8AL1tQJYNNUQj9j69SWe2nWtVX43vGx2fqU6%2FpZDAE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Scaling with Google Cloud Operations
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-35\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12667928\"><img alt=\"Badge for Google Sheets\" src=\"https://cdn.qwiklabs.com/f7sl8IQd5J1eqhRhtnD3P%2Bcmu3WL%2BmRgzzTyRRq%2B%2BYE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Google Sheets
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-36\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12667657\"><img alt=\"Badge for Google Calendar\" src=\"https://cdn.qwiklabs.com/kkpEU4%2BGCb1TpbSLEAaD58UBmRCrjQhOgSHmp8BmYkk%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Google Calendar
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-37\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12667407\"><img alt=\"Badge for Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation\" src=\"https://cdn.qwiklabs.com/NWTQODMJcXvT7VU9iz98tL7wYVclkbqLiVOXD62VLMw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Machine Learning Operations (MLOps) with Vertex AI: Model Evaluation
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-38\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12662348\"><img alt=\"Badge for Machine Learning Operations (MLOps)  for Generative AI \" src=\"https://cdn.qwiklabs.com/%2FtTuLG7JDJIBJQv5NcPAhKHQj5968aKafxSg0fCTiXY%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Machine Learning Operations (MLOps)  for Generative AI 
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  6, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-39\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12645468\"><img alt=\"Badge for Introduction to Image Generation\" src=\"https://cdn.qwiklabs.com/2meoeAeFaFRp5SS3rOx%2BrkHovx%2B%2FYhhByzW4OIhF5L4%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Image Generation
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  5, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-40\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12645376\"><img alt=\"Badge for Professional Machine Learning Engineer Study Guide\" src=\"https://cdn.qwiklabs.com/2yl3zhLNJP1Y38Orme3PHRwW3IGccYaEfWMx18m6SmE%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Professional Machine Learning Engineer Study Guide
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  5, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-41\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12621614\"><img alt=\"Badge for Responsible AI: Applying AI Principles with Google Cloud\" src=\"https://cdn.qwiklabs.com/j9FCYFidyWQkhkDl9CGYUHzibvcGiWjFDOawbEmU%2FlY%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Responsible AI: Applying AI Principles with Google Cloud
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Nov  4, 2024 EST
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-42\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12198226\"><img alt=\"Badge for Introduction to Responsible AI\" src=\"https://cdn.qwiklabs.com/teuTnmFi96VycJaZff9bmOfUQMz1tgPiTtsCH2iBBY8%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Responsible AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Oct 18, 2024 EDT
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-43\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12198103\"><img alt=\"Badge for Introduction to Large Language Models\" src=\"https://cdn.qwiklabs.com/K7NHWTVqN1EabD1EdjC%2F84bsfFvBBAD0XNXw4OV7eZw%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Large Language Models
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Oct 18, 2024 EDT
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-44\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+        <div class=\"profile-badge\">
+          <a class=\"badge-image\" href=\"https://www.cloudskillsboost.google/public_profiles/7c261a51-684a-4b46-aaf2-a7ef2ac0c976/badges/12197838\"><img alt=\"Badge for Introduction to Generative AI\" src=\"https://cdn.qwiklabs.com/BJUVIP09izx0fRzcISX%2BJREqknYwQ5rUJpnelSuFlKc%3D\">
+          </a><span class=\"ql-title-medium l-mts\">
+          Introduction to Generative AI
+          </span>
+          <span class=\"ql-body-medium l-mbs\">
+          Earned Oct 18, 2024 EDT
+          </span>
+          <ql-button hairline=\"\" label=\"Learn more\" modal=\"public-profile-award-modal-45\" tip=\"Learn more\" type=\"button\"></ql-button>
+        </div>
+      </div>
+    </div>
+  </section>", "/var/www/html/october/flexui/themes/zwiebl-zwiebl_stellar/partials/home_page/credentials_one.htm", "");
+    }
+}

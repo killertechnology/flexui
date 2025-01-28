@@ -1,31 +1,92 @@
-/*
+/*alert('hello');
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-console.log('hello');
 
+ // Select the target div
+const targetDiv0 = document.querySelector("#ex-fuelcaster");
+const observer0 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { fcvid.play(); }//      console.log('Div is visible');
+    else { fcvid.pause(); }    // console.log('Div is invisible');
+  });
+}, {  threshold: 0 });
+observer0.observe(targetDiv0);
 
+const targetDiv1 = document.querySelector("#ex-smiledrive");
+const observer1 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { sdvid.play(); }//      console.log('Div is visible');
+    else { sdvid.pause(); }    // console.log('Div is invisible');
+  });
+}, {  threshold: 0 });
+observer1.observe(targetDiv1);
 
- $(document).ready(function() 
- {
-    $('.jquery-modal blocker current').bind('DOMSubtreeModified', function(e) {
-      alert('fc changed');
-      
-    });
-     
-    $('#ex-fuelcaster').bind('DOMSubtreeModified', function(e) {
-      //alert('fc changed');
-      fcvid.pause();
-    });
-  
-    $('#ex-smiledrive').bind('DOMSubtreeModified', function(e) {
-      //alert('sd changed')
-      sdvid.pause();
-    });
-   
- });
+const targetDiv2 = document.querySelector("#ex-mariokart");
+const observer2 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { mk8vid.play(); }//      console.log('Div is visible');
+    else { mk8vid.pause(); }    // console.log('Div is invisible');
+  });
+}, {  threshold: 0 });
+observer2.observe(targetDiv2);
+
+const targetDiv3 = document.querySelector("#ex-cmab");
+const observer3 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { cmabvid.play(); }//      console.log('Div is visible');
+    else { cmabvid.pause(); }    // console.log('Div is invisible');
+  });
+}, {  threshold: 0 });
+observer3.observe(targetDiv3);
+
+const targetDiv4 = document.querySelector("#ex-belluminati");
+const observer4 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { bmvid.play(); }//      console.log('Div is visible');
+    else { bmvid.pause(); }    // console.log('Div is invisible');
+  });
+}, {  threshold: 0 });
+observer4.observe(targetDiv4);
+
+const targetDiv5 = document.querySelector("#ex-quesalupa");
+const observer5 = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) { qlvid.play(); }//      console.log('Div is visible');
+    else { qlvid.pause(); }    // console.log('Div is invisible');
+  });
+}, {  threshold: 0 });
+observer5.observe(targetDiv5);
+
+function checkVideo(video){
+        
+       
+       
+        
+        if (video.ended === true){    
+            video.pause();
+        }
+        else if (video.paused === true){
+            video.play();
+        }
+        else if (video.paused === false){
+            video.pause();
+        }
+        /**/
+        console.log("this.paused:" + video.paused);
+        console.log("this.ended:" + video.ended);
+       
+       if (video.paused){
+            //$("#ex-smiledrive")[0].webkitExitFullScreen();
+            $("#sdvid").get(0).pause();
+            
+            
+       }
+    }
+    
+    
  
 //fcvid.pause();
 
@@ -92,7 +153,7 @@ console.log('hello');
 							offset: function() { return $nav.height(); }
 						})
 						.on('click', function() {
-
+    
 							var $this = $(this);
 
 							// External link? Bail.
@@ -132,7 +193,7 @@ console.log('hello');
 
 									},
 									enter: function() {
-
+                                            
 										// Activate section.
 											$section.removeClass('inactive');
 

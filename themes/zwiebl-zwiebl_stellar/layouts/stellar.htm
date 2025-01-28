@@ -2,28 +2,18 @@ description = "Stellar OnePage with Smooth Scroll"
 ==
 <html>
 <head>
+<script language="javascript">if (location.href.indexOf('https://flexui.com/')>-1){ location.href='https://kevinfessler.info'; }</script>
     {% partial "html_base/meta_head" %}
 </head>
 <body>
+
     <div id="wrapper">
         {% partial "all_pages/header" %}
         {% partial "home_page/navigation" %}
-        <div id="main">
-            {% page %}
-
-           
-                {% partial "home_page/section_one" %}
-           
-                {% partial "home_page/section_two" %}
-           
-                {% partial "home_page/section_three" %}
-           
-                {% partial "home_page/section_four" %}
-                
-                
-           
-        </div>
-        {% partial "all_pages/footer" %}
+        
+        {% page %}
+        
+       {% partial "all_pages/footer" %}
     </div>
     {% partial "html_base/scripts" %}
 </body>

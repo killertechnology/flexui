@@ -1,0 +1,26 @@
+1738017908a:1:{s:20:"all_pages/header.htm";a:6:{s:8:"fileName";s:20:"all_pages/header.htm";s:7:"content";s:595:"==
+<!-- Header
+<video autoplay muted loop id="myVideo">
+<source src="/storage/app/media/sea-flow.mp4" type="video/mp4">
+  <!-- <source src="https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/559/10/252799058/920543741.mp4?token=1559271064-0xb0687c58ae160783bb5fe5635f111818241c1616" type="video/mp4"> 
+</video> -->
+<div align=center>
+    <br><br>
+    <span class="logo"><a href='/'><div><img src="/themes/zwiebl-zwiebl_stellar/assets/images/logo.svg" alt="Logo" /></div></a></span>
+</div>
+<header id="header" class="alt">
+    <!-- <h1>{{ this.page.title }}</h1> -->
+   
+</header>";s:5:"mtime";i:1738016523;s:6:"markup";s:592:"<!-- Header
+<video autoplay muted loop id="myVideo">
+<source src="/storage/app/media/sea-flow.mp4" type="video/mp4">
+  <!-- <source src="https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/559/10/252799058/920543741.mp4?token=1559271064-0xb0687c58ae160783bb5fe5635f111818241c1616" type="video/mp4"> 
+</video> -->
+<div align=center>
+    <br><br>
+    <span class="logo"><a href='/'><div><img src="/themes/zwiebl-zwiebl_stellar/assets/images/logo.svg" alt="Logo" /></div></a></span>
+</div>
+<header id="header" class="alt">
+    <!-- <h1>{{ this.page.title }}</h1> -->
+   
+</header>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -1,0 +1,208 @@
+<?php
+
+/* /var/www/html/october/flexui/themes/zwiebl-zwiebl_stellar/partials/home_page/section_five.htm */
+class __TwigTemplate_3d6023a03f68b0b3669d62f028a15c0416264edd659114b62086c6b85e12da99 extends Twig_Template
+{
+    private $source;
+
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        // line 1
+        echo "<section class=\"main\">
+    <header class=\"major\" id=\"portfolio\" style='padding-top:15px;'>
+        <h2>Web & Mobile Portfolio</h2>
+        <div class='proj-text'>Below are some projects I'm proud to have worked on.</div>
+    </header>
+
+<ul>
+          <strong>DISQO, INC</strong>
+          <li><a style='font-weight:bold;' href=\"http://surveyjunkie.com\" target=\"new\">http://surveyjunkie.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://surveyjunkie.uk\" target=\"new\">http://surveyjunkie.uk</a></li>
+        </ul>
+        
+        <ul>
+          <strong>DEUTSCH ADVERTISING</strong>
+          <li><a style='font-weight:bold;' href=\"http://ta.co\" target=\"new\">http://ta.co (Tacobell.com)</a></li>
+          <li><a style='font-weight:bold;' href=\"https://tacobellwedding.com\" target=\"new\">https://tacobellwedding.com</a></li>
+          <li><a style='font-weight:bold;' href=\"https://thetacobelltestkitchen.com\" target=\"new\">https://thetacobelltestkitchen.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://vw.com\" target=\"new\">http://vw.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://smiledrive.vw.com\" target=\"new\">http://smiledrive.vw.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://fuelcaster.com\" target=\"new\">http://fuelcaster.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://deutsch.com\" target=\"new\">http://deutsch.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://realcaliforniamilk.com\" target=\"new\">http://realcaliforniamilk.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://anthem.com\" target=\"new\">http://anthem.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://htc.com\" target=\"new\">http://htc.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://nintendo.com\" target=\"new\">http://nintendo.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://playstation.com\" target=\"new\">http://playstation.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://freshandeasy.com\" target=\"new\">http://freshandeasy.com</a></li>
+        </ul>
+        
+        <ul>
+          <strong>WARNER BROS. ONLINE</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.warnerbros.com\" target=\"new\">http://www.warnerbros.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.friends.com\" target=\"new\">http://www.friends.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.rosieo.com\" target=\"new\">http://www.rosieo.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.MadTV.com\" target=\"new\">http://www.MadTV.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.harrypotter.com\" target=\"new\">http://www.harrypotter.com</a></li>
+        </ul>
+        <ul>
+          <strong>HAMON & ASSOCIATES ADVERTISING</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.boschappliances.com\" target=\"new\">http://www.boschappliances.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.thermador.com\" target=\"new\">http://www.thermador.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.hyundaiusa.com\" target=\"new\">http://www.hyundaiusa.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.kreiss.com\" target=\"new\">http://www.kreiss.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.logitech.com\" target=\"new\">http://www.logitech.com</a></li>
+        </ul>
+        <ul>
+          <strong>EMI / CAPITOL RECORDS</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.emidigital.com\" target=\"new\">http://www.emidigital.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.capitolrecords.com\" target=\"new\">http://www.capitolrecords.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.janetjackson.com\" target=\"new\">http://www.janetjackson.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.thebeachboys.com\" target=\"new\">http://www.thebeachboys.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.kennyrogers.com\" target=\"new\">http://www.kennyrogers.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.coldplay.com\" target=\"new\">http://www.coldplay.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.virginrecords.com\" target=\"new\">http://www.virginrecords.com</a></li>
+        </ul>
+        <ul>
+          <strong>NATIONAL ASSOCIATION OF REALTORS</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.move.com\" target=\"new\">http://www.move.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.realtor.com\" target=\"new\">http://www.realtor.com</a></li>
+        </ul>
+        <ul>
+        <strong>NESTLE USA CONSUMER BRANDS</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.verybestkids.com\" target=\"new\">http://www.verybestkids.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.verybestmeals.com\" target=\"new\">http://www.verybestmeals.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.verybestbaby.com\" target=\"new\">http://www.verybestbaby.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nestleSweeTARTS.com\" target=\"new\">http://www.nestleSweeTARTS.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nestlecrunch.com\" target=\"new\">http://www.nestlecrunch.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nestea.com\" target=\"new\">http://www.nestea.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nesquik.com\" target=\"new\">http://www.nesquik.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.babyruth.com\" target=\"new\">http://www.babyruth.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.butterfinger.com\" target=\"new\">http://www.butterfinger.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.juicyjuice.com\" target=\"new\">http://www.juicyjuice.com</a></li>
+        </ul>
+        <ul>
+          <strong>DIGITAL ENTERTAINMENT NETWORK</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.den.net\" target=\"new\">http://www.den.net</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.fratratz.com\" target=\"new\">http://www.fratratz.com</a></li>
+        </ul>
+        
+        <ul>
+          <strong>MOBILE APPS:</strong>
+          <li><a style='font-weight:bold;' href=\"https://www.surveyjunkie.com/mobile-apps\" target=\"new\">SurveyJunkie iOS and Android App</a></li>
+          <li><a style='font-weight:bold;' href=\"https://play.google.com/store/apps/details?id=com.vw.smiledrive\" target=\"new\">VW Smiledrive Android App</a></li>
+          <li><a style='font-weight:bold;' href=\"https://www.realtor.com/mobile\" target=\"new\">Realtor.com iOS and Android App</a></li>
+        </ul>";
+    }
+
+    public function getTemplateName()
+    {
+        return "/var/www/html/october/flexui/themes/zwiebl-zwiebl_stellar/partials/home_page/section_five.htm";
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  23 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("<section class=\"main\">
+    <header class=\"major\" id=\"portfolio\" style='padding-top:15px;'>
+        <h2>Web & Mobile Portfolio</h2>
+        <div class='proj-text'>Below are some projects I'm proud to have worked on.</div>
+    </header>
+
+<ul>
+          <strong>DISQO, INC</strong>
+          <li><a style='font-weight:bold;' href=\"http://surveyjunkie.com\" target=\"new\">http://surveyjunkie.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://surveyjunkie.uk\" target=\"new\">http://surveyjunkie.uk</a></li>
+        </ul>
+        
+        <ul>
+          <strong>DEUTSCH ADVERTISING</strong>
+          <li><a style='font-weight:bold;' href=\"http://ta.co\" target=\"new\">http://ta.co (Tacobell.com)</a></li>
+          <li><a style='font-weight:bold;' href=\"https://tacobellwedding.com\" target=\"new\">https://tacobellwedding.com</a></li>
+          <li><a style='font-weight:bold;' href=\"https://thetacobelltestkitchen.com\" target=\"new\">https://thetacobelltestkitchen.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://vw.com\" target=\"new\">http://vw.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://smiledrive.vw.com\" target=\"new\">http://smiledrive.vw.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://fuelcaster.com\" target=\"new\">http://fuelcaster.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://deutsch.com\" target=\"new\">http://deutsch.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://realcaliforniamilk.com\" target=\"new\">http://realcaliforniamilk.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://anthem.com\" target=\"new\">http://anthem.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://htc.com\" target=\"new\">http://htc.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://nintendo.com\" target=\"new\">http://nintendo.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://playstation.com\" target=\"new\">http://playstation.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://freshandeasy.com\" target=\"new\">http://freshandeasy.com</a></li>
+        </ul>
+        
+        <ul>
+          <strong>WARNER BROS. ONLINE</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.warnerbros.com\" target=\"new\">http://www.warnerbros.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.friends.com\" target=\"new\">http://www.friends.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.rosieo.com\" target=\"new\">http://www.rosieo.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.MadTV.com\" target=\"new\">http://www.MadTV.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.harrypotter.com\" target=\"new\">http://www.harrypotter.com</a></li>
+        </ul>
+        <ul>
+          <strong>HAMON & ASSOCIATES ADVERTISING</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.boschappliances.com\" target=\"new\">http://www.boschappliances.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.thermador.com\" target=\"new\">http://www.thermador.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.hyundaiusa.com\" target=\"new\">http://www.hyundaiusa.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.kreiss.com\" target=\"new\">http://www.kreiss.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.logitech.com\" target=\"new\">http://www.logitech.com</a></li>
+        </ul>
+        <ul>
+          <strong>EMI / CAPITOL RECORDS</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.emidigital.com\" target=\"new\">http://www.emidigital.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.capitolrecords.com\" target=\"new\">http://www.capitolrecords.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.janetjackson.com\" target=\"new\">http://www.janetjackson.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.thebeachboys.com\" target=\"new\">http://www.thebeachboys.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.kennyrogers.com\" target=\"new\">http://www.kennyrogers.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.coldplay.com\" target=\"new\">http://www.coldplay.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.virginrecords.com\" target=\"new\">http://www.virginrecords.com</a></li>
+        </ul>
+        <ul>
+          <strong>NATIONAL ASSOCIATION OF REALTORS</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.move.com\" target=\"new\">http://www.move.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.realtor.com\" target=\"new\">http://www.realtor.com</a></li>
+        </ul>
+        <ul>
+        <strong>NESTLE USA CONSUMER BRANDS</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.verybestkids.com\" target=\"new\">http://www.verybestkids.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.verybestmeals.com\" target=\"new\">http://www.verybestmeals.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.verybestbaby.com\" target=\"new\">http://www.verybestbaby.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nestleSweeTARTS.com\" target=\"new\">http://www.nestleSweeTARTS.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nestlecrunch.com\" target=\"new\">http://www.nestlecrunch.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nestea.com\" target=\"new\">http://www.nestea.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.nesquik.com\" target=\"new\">http://www.nesquik.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.babyruth.com\" target=\"new\">http://www.babyruth.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.butterfinger.com\" target=\"new\">http://www.butterfinger.com</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.juicyjuice.com\" target=\"new\">http://www.juicyjuice.com</a></li>
+        </ul>
+        <ul>
+          <strong>DIGITAL ENTERTAINMENT NETWORK</strong>
+          <li><a style='font-weight:bold;' href=\"http://www.den.net\" target=\"new\">http://www.den.net</a></li>
+          <li><a style='font-weight:bold;' href=\"http://www.fratratz.com\" target=\"new\">http://www.fratratz.com</a></li>
+        </ul>
+        
+        <ul>
+          <strong>MOBILE APPS:</strong>
+          <li><a style='font-weight:bold;' href=\"https://www.surveyjunkie.com/mobile-apps\" target=\"new\">SurveyJunkie iOS and Android App</a></li>
+          <li><a style='font-weight:bold;' href=\"https://play.google.com/store/apps/details?id=com.vw.smiledrive\" target=\"new\">VW Smiledrive Android App</a></li>
+          <li><a style='font-weight:bold;' href=\"https://www.realtor.com/mobile\" target=\"new\">Realtor.com iOS and Android App</a></li>
+        </ul>", "/var/www/html/october/flexui/themes/zwiebl-zwiebl_stellar/partials/home_page/section_five.htm", "");
+    }
+}
